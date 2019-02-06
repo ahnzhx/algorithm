@@ -3,6 +3,9 @@ package divideAndConquer.stackAndQueues;
 import java.util.Stack;
 
 public class StoneWall {
+    /**
+     * 문제 이해도 어렵고, 알고리즘 이해도 잘 안감...
+     * */
     //O(N)
     public static int solution(int[] H) {
         Stack<Integer> stack = new Stack<>();
