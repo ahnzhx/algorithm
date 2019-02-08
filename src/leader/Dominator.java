@@ -30,7 +30,7 @@ public class Dominator {
     // 100% / O(N) time with O(1) space
     public static int solution2 (int []A){
         int indexOfCandidate = -1;
-        int stackCounter = 0, candidate=-1, value=-1, i =0;
+        int stackCounter = 0, candidate = -1, value=-1, i =0;
 
         for(int element: A ) {
             if (stackCounter == 0) {

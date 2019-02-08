@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/maximumSliceProblem/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maximumSliceProblem/MaxSliceSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/leader/EquiLeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/leader/EquiLeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fight/leader/Dominator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/leader/Dominator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leader/Dominator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leader/Dominator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,17 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/divideAndConquer/stackAndQueues/Brackets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="460">
               <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/divideAndConquer/sorting/NumberOfDiscIntersections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -45,17 +38,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leader/EquiLeader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="400">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leader/Dominator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maximumSliceProblem/MaxSliceSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leader/Dominator.java">
+        <entry file="file://$PROJECT_DIR$/src/maximumSliceProblem/MaxProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+            <state relative-caret-position="140">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -101,13 +112,15 @@
         <option value="$PROJECT_DIR$/src/leader/equileader2.java" />
         <option value="$PROJECT_DIR$/src/leader/EquiLeader.java" />
         <option value="$PROJECT_DIR$/src/leader/Dominator.java" />
+        <option value="$PROJECT_DIR$/src/maximumSliceProblem/MaxSliceSum.java" />
+        <option value="$PROJECT_DIR$/src/maximumSliceProblem/MaxProfit.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="877" />
-    <option name="y" value="23" />
-    <option name="width" value="800" />
+    <option name="x" value="-973" />
+    <option name="y" value="24" />
+    <option name="width" value="972" />
     <option name="height" value="954" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -118,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,38 +148,17 @@
               <item name="fight" type="b2602c69:ProjectViewProjectNode" />
               <item name="fight" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="divideAndConquer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fight" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="divideAndConquer" type="462c0819:PsiDirectoryNode" />
-              <item name="prefixSums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fight" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="divideAndConquer" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fight" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leader" type="462c0819:PsiDirectoryNode" />
+              <item name="maximumSliceProblem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549453456142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549634196843" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -184,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dominator">
+  <component name="RunManager" selected="Application.MaxProfit">
     <configuration name="Dominator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leader.Dominator" />
       <module name="fight" />
@@ -211,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divideAndConquer.stackAndQueues.Fish" />
+    <configuration name="Intro" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Intro" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="divideAndConquer.stackAndQueues.*" />
+          <option name="PATTERN" value="divideAndConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +217,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intro" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Intro" />
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maximumSliceProblem.MaxProfit" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="PATTERN" value="maximumSliceProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSliceSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maximumSliceProblem.MaxSliceSum" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maximumSliceProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,26 +256,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoneWall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="divideAndConquer.stackAndQueues.StoneWall" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="divideAndConquer.stackAndQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dominator" />
+        <item itemvalue="Application.MaxProfit" />
+        <item itemvalue="Application.MaxSliceSum" />
         <item itemvalue="Application.EquiLeader" />
+        <item itemvalue="Application.Dominator" />
         <item itemvalue="Application.Nesting" />
-        <item itemvalue="Application.StoneWall" />
-        <item itemvalue="Application.Fish" />
       </list>
     </recent_temporary>
   </component>
@@ -287,10 +280,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="877" y="23" width="800" height="954" extended-state="0" />
+    <frame x="-973" y="24" width="972" height="954" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27176782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27096775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,7 +292,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.225058" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.225058" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,20 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/divideAndConquer/stackAndQueues/Nesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/divideAndConquer/stackAndQueues/Brackets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/divideAndConquer/sorting/NumberOfDiscIntersections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -526,17 +505,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/divideAndConquer/stackAndQueues/Brackets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/divideAndConquer/stackAndQueues/Nesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leader/EquiLeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="400">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leader/Dominator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        <state relative-caret-position="581">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maximumSliceProblem/MaxSliceSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maximumSliceProblem/MaxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
