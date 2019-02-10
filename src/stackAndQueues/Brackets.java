@@ -1,4 +1,4 @@
-package divideAndConquer.stackAndQueues;
+package stackAndQueues;
 
 import java.util.Stack;
 

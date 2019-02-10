@@ -1,4 +1,4 @@
-package divideAndConquer.prefixSums;
+package prefixSums;
 
 public class MinAvgTwoSlice {
 /**

@@ -1,4 +1,4 @@
-package divideAndConquer.prefixSums;
+package prefixSums;
 
 public class CountDiv {
     //50% (performance 0점받음)

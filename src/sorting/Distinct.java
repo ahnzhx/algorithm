@@ -1,4 +1,4 @@
-package divideAndConquer.sorting;
+package sorting;
 
 
 import java.util.HashSet;

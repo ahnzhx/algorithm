@@ -1,4 +1,4 @@
-package divideAndConquer.sorting;
+package sorting;
 
 public class NumberOfDiscIntersections {
     public static int solution(int[] A){
