@@ -11,7 +11,7 @@ public class Flags {
                 array.add(i);
             }
         }
-        if (array.size() == 1 || array.size() == 0) {
+        if (array.size() < 2) {
             return array.size();
         }
         int sf = 1;
@@ -19,18 +19,15 @@ public class Flags {
         int result = 1;
         while (sf <= ef) {
             int flag = (sf + ef) / 2;
-            System.out.println("flag:" + flag);
             boolean suc = false;
             int used = 0;
             int mark = array.get(0);
             for (int i = 0; i < array.size(); i++) {
                 if (array.get(i) >= mark) {
                     used++;
-                    System.out.println("used: "+ used);
                     mark = array.get(i) + flag;
 
                     if (used == flag) {
-                        System.out.println("same!"+ flag);
                         suc = true;
                         break;
                     }
