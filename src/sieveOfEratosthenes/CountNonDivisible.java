@@ -1,70 +1,33 @@
 package sieveOfEratosthenes;
 
-import java.util.HashMap;
-
 public class CountNonDivisible {
-    // Timeout 55%
-    public static int[] solution(int []A){
-         int []arr = new int[A.length];
-         int idx = 0;
-         while(idx < A.length){
-             for(int i : A){
-                 if( A[idx] % i != 0){
-                     arr[idx] += 1;
-                 }
-             }
-             idx++;
-         }
-         return arr;
-    }
 
-    // 100% O(N*log(N))
-    public int[] solution2(int[] A) {
-        // write your code in Java SE 8
-        int N = A.length;
-        HashMap<Integer, Integer> count = new HashMap<>();
-
-        for (int i : A) {
-            Integer key = count.get(i);
-            if (key != null) {
-                count.put(i, key + 1);
-            } else {
-                count.put(i, 1);
-            }
+    // 100% O(N*log(N))     어떻게 이게 가능하지..? 어떻게 이 알고리즘이 되는거지...?
+    public static int[] solution2(int[] A) {
+        int[] counts = new int[A.length * 2 + 1];
+        for (int number : A) {
+            counts[number]++;
         }
 
-        HashMap<Integer, Integer> divs = new HashMap<>();
-        for (Integer n : count.keySet()) {
-            int sum = 0;
-            int j = 1;
-            while (j * j <= n) {
-                if (n % j == 0) {
-                    if (count.containsKey(j)) {
-                        sum += count.get(j);
-                    }
-                    //find n = j*k cases to add both to the dividors
-                    int k = n / j;
-                    if (k != j) {
-                        if (count.containsKey(k)) {
-                            sum += count.get(k);
-                        }
-                    }
+        int[] divisorNums = new int[counts.length];
+        for (int i = 1; i * i < divisorNums.length; i++) {
+            for (int j = i * i; j < divisorNums.length; j += i) {
+                divisorNums[j] += counts[i];
+                if (j != i * i) {
+                    divisorNums[j] += counts[j / i];
                 }
-                j++;
             }
-
-            divs.put(n, N - sum);
         }
 
-        for (int i = 0; i < A.length; i++) {
-            A[i] = divs.get(A[i]);
+        int[] result = new int[A.length];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = A.length - divisorNums[A[i]];
         }
-
-        return A;
+        return result;
     }
 
     public static void main(String []args){
         int []a = {3,1,2,3,6};
-        System.out.println(solution(a));
+        System.out.println(solution2(a));
     }
 }
