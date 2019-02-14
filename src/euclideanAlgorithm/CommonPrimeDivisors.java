@@ -2,7 +2,7 @@ package euclideanAlgorithm;
 
 public class CommonPrimeDivisors {
 
-    // O(Z * log(max(A) + max(B))**2 )
+    // O(Z * log(max(A) + max(B)) ** 2 )
     public static int solution(int[] A, int[] B) {
         int count = 0;
         for(int i = 0; i < A.length; i++) {
