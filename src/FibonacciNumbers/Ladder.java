@@ -4,22 +4,19 @@ public class Ladder {
 
     // O(L)
     public static int[] solution(int []A, int []B){
-        // for a given N rungs, the number of different ways of climbing is the (N+1)th element in the Fibonacci numbers.
-        // we know that the result of a number modulo 2^P is the bit under P, so
-        // if we first let the number modulo 2^Q(Q > P) and then modulo 2^P, the
-        // result is the same.
+        //modulo : 나눗셈의 나머지를 계산하는 수학적 연산
         int L = A.length;
-        int[] fib = new int[L+2];
-        int[] result = new int[L];
+        int fib[] = new int [L+2];
+        int result[] = new int [L];
         fib[1] = 1;
         fib[2] = 2;
-        for (int i = 3; i <= L; i++) {
-            // make sure the fibonacci number will not exceed the max integer in java 1<<n = 2^n
-            fib[i] = (fib[i-1] + fib[i-2]) % (1 << 30);
-        }
-        for (int i = 0; i < L; i++) {
-            result[i] = fib[A[i]] % (1 << B[i]);
-        }
+        for(int i = 3; i<= L ; i++)
+            fib[i] = (fib[i-1]+ fib[i-2]) %(1 << 30);
+
+
+        for(int i =0; i < L ; i++)
+            result[i] = (fib[A[i]]) % (1 << B[i]);
+
         return result;
     }
 

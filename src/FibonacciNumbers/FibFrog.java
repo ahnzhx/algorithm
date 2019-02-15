@@ -20,16 +20,12 @@ public class FibFrog {
                 // And the number of them = O(log(n))
                 for (int j = 0; j < fs && fib[j] <= i + 1; j++) {
                     final int from = i - fib[j];
-                    //System.out.println("i~: "+i+ "j~: "+j+" min~: " +min);
+
                     if (from == -1)
                         min = 1;
                     else if (a[from] > 0) {
-                        if (a[from] + 1 < min){
-
+                        if (a[from] + 1 < min)
                             min = a[from] + 1;
-                        //    System.out.println("a[from]: "+a[from]+" from: "+from+"i: "+i+ "j: "+j+" min: " +min);
-                        }
-
                     }
                 }
                 if (i < a.length) {
