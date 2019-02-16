@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
-      <change afterPath="$PROJECT_DIR$/out/production/fight/BinarySearchAlgorithm/MinMaxDIvision.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/fight/BinarySearchAlgorithm/NailingPlanks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/fight/FibonacciNumbers/Ladder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaterpillarMethod/AbsDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaterpillarMethod/CountDistinctSlices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/FibonacciNumbers/FibFrog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/FibonacciNumbers/FibFrog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fight/BinarySearchAlgorithm/MinMaxDIvision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/BinarySearchAlgorithm/MinMaxDIvision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fight/BinarySearchAlgorithm/NailingPlanks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/BinarySearchAlgorithm/NailingPlanks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchAlgorithm/MinMaxDIvision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchAlgorithm/MinMaxDIvision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinarySearchAlgorithm/NailingPlanks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchAlgorithm/NailingPlanks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciNumbers/FibFrog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciNumbers/FibFrog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciNumbers/Ladder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciNumbers/Ladder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/primeAndCompositeNumbers/Flags.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sieveOfEratosthenes/CountNonDivisible.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinarySearchAlgorithm/NailingPlanks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+            <state relative-caret-position="51">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -86,8 +76,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinarySearchAlgorithm/MinMaxDIvision.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="175">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CaterpillarMethod/AbsDistinct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CaterpillarMethod/CountDistinctSlices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -164,14 +175,17 @@
         <option value="$PROJECT_DIR$/src/FibonacciNumbers/Ladder.java" />
         <option value="$PROJECT_DIR$/src/FibonacciNumbers/FibFrog.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchAlgorithm/NailingPlanks.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearchAlgorithm/MinMaxDIvision.java" />
+        <option value="$PROJECT_DIR$/src/CaterpillarMethod/AbsDistinct.java" />
+        <option value="$PROJECT_DIR$/src/CaterpillarMethod/CountDistinctSlices.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="760" />
+    <option name="x" value="850" />
     <option name="y" value="23" />
-    <option name="width" value="1153" />
-    <option name="height" value="987" />
+    <option name="width" value="823" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,10 +194,47 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearchAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CaterpillarMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FibonacciNumbers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550224195735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550288281264" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -203,13 +254,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NailingPlanks">
-    <configuration name="ChocolatesByNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="euclideanAlgorithm.ChocolatesByNumbers" />
+  <component name="RunManager" selected="Application.CountDistinctSlices">
+    <configuration name="AbsDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaterpillarMethod.AbsDistinct" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="euclideanAlgorithm.*" />
+          <option name="PATTERN" value="CaterpillarMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonPrimeDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="euclideanAlgorithm.CommonPrimeDivisors" />
+    <configuration name="CountDistinctSlices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaterpillarMethod.CountDistinctSlices" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="euclideanAlgorithm.*" />
+          <option name="PATTERN" value="CaterpillarMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ladder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FibonacciNumbers.Ladder" />
+    <configuration name="MinMaxDIvision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchAlgorithm.MinMaxDIvision" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FibonacciNumbers.*" />
+          <option name="PATTERN" value="BinarySearchAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDistinctSlices" />
+        <item itemvalue="Application.AbsDistinct" />
+        <item itemvalue="Application.MinMaxDIvision" />
         <item itemvalue="Application.NailingPlanks" />
         <item itemvalue="Application.FibFrog" />
-        <item itemvalue="Application.Ladder" />
-        <item itemvalue="Application.CommonPrimeDivisors" />
-        <item itemvalue="Application.ChocolatesByNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -306,10 +357,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="23" width="1153" height="987" extended-state="0" />
+    <frame x="850" y="23" width="823" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16382979" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2522936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,12 +369,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21675977" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21593533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3394919" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32830626" />
@@ -652,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchAlgorithm/MinMaxDIvision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sieveOfEratosthenes/CountSemiprimes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -668,8 +712,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchAlgorithm/NailingPlanks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+        <state relative-caret-position="51">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchAlgorithm/MinMaxDIvision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CaterpillarMethod/AbsDistinct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CaterpillarMethod/CountDistinctSlices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>

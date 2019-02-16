@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class NailingPlanks {
 
-    //O((N+M) * log(M))
+    //O((N+M) * log(M)) 100%
     public static int solution(int []A, int []B, int []C){
         int N = A.length;
         int M = C.length;
@@ -13,7 +13,7 @@ public class NailingPlanks {
             sortedNail[i][0] = C[i];
             sortedNail[i][1] = i;
         }
-
+        //정렬함. 람다식으로 어떻게 정렬하는지 이해 잘 안감,,
         Arrays.sort(sortedNail, (int x[], int y[]) -> x[0]- y[0]);
 
         int result = 0;
@@ -29,7 +29,7 @@ public class NailingPlanks {
         int min = 0;
         int max = nail.length-1;
         int minIndex = -1;
-        while(min <= max){
+        while(min <= max){ // startPlank < nail[mid][0] < endPlank 인 nail값 찾는중..
             int mid= (min+max)/2;
             if(nail[mid][0] < startPlank)
                 min = mid+1;
