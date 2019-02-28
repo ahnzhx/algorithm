@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
-      <change afterPath="$PROJECT_DIR$/src/programmers/CodingTest/Quest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/CodingTest/RegularTest/Camouflage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/GoingToSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/StreamPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/Quest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/CodingTest/Quest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/CodingTest/Quest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/CodingTest/Quest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/CodingTest/Quest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/CodingTest/Quest2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sorting/MaxProductOfThree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sieveOfEratosthenes/CountNonDivisible.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/primeAndCompositeNumbers/Flags.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/Quest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="271">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,10 +57,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/GoingToSchool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/StreamPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/RegularTest/Camouflage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            <state relative-caret-position="72">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/divideAndConquer/FrogJmp.java" />
-        <option value="$PROJECT_DIR$/src/divideAndConquer/PermMissingElem.java" />
-        <option value="$PROJECT_DIR$/src/divideAndConquer/TapeEquilibrium.java" />
-        <option value="$PROJECT_DIR$/src/divideAndConquer/PermCheck.java" />
         <option value="$PROJECT_DIR$/src/divideAndConquer/FrogRiverOne.java" />
         <option value="$PROJECT_DIR$/src/divideAndConquer/MissingInteger.java" />
         <option value="$PROJECT_DIR$/src/divideAndConquer/MaxCounters.java" />
@@ -185,14 +187,18 @@
         <option value="$PROJECT_DIR$/src/programmers/Quest1.java" />
         <option value="$PROJECT_DIR$/src/programmers/Quest2.java" />
         <option value="$PROJECT_DIR$/src/programmers/CodingTest/RegularTest/Camouflage.java" />
+        <option value="$PROJECT_DIR$/src/programmers/CodingTest/RegularTest/GoingToSchool.java" />
+        <option value="$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/DynamicProgramming.java" />
+        <option value="$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/StreamPractice.java" />
+        <option value="$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/GoingToSchool.java" />
         <option value="$PROJECT_DIR$/src/programmers/CodingTest/Quest2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="348" />
+    <option name="x" value="910" />
     <option name="y" value="23" />
-    <option name="width" value="1332" />
+    <option name="width" value="776" />
     <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -203,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -226,6 +233,13 @@
               <item name="fight" type="b2602c69:ProjectViewProjectNode" />
               <item name="fight" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CodingTest" type="462c0819:PsiDirectoryNode" />
+              <item name="RegularTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sieveOfEratosthenes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,17 +250,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551165391188" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551329354947" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="programmers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,7 +284,20 @@
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.CodingTest.RegularTest.*" />
+          <option name="PATTERN" value="programmers.CodingTest.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoingToSchool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.CodingTest.dynamicProgramming.GoingToSchool" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.CodingTest.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,19 +311,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="divideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxNonoverlappingSegments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyAlgorithms.MaxNonoverlappingSegments" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedyAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +344,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TieRopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyAlgorithms.TieRopes" />
+    <configuration name="StreamPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.CodingTest.dynamicProgramming.StreamPractice" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedyAlgorithms.*" />
+          <option name="PATTERN" value="programmers.CodingTest.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,10 +360,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Quest2" />
+        <item itemvalue="Application.GoingToSchool" />
+        <item itemvalue="Application.StreamPractice" />
         <item itemvalue="Application.Camouflage" />
         <item itemvalue="Application.Quest1" />
-        <item itemvalue="Application.TieRopes" />
-        <item itemvalue="Application.MaxNonoverlappingSegments" />
       </list>
     </recent_temporary>
   </component>
@@ -363,10 +381,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="348" y="23" width="1332" height="955" extended-state="0" />
+    <frame x="910" y="23" width="776" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25568798" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25534308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -424,26 +442,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/divideAndConquer/Intro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-539">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/divideAndConquer/FrogRiverOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/divideAndConquer/FrogJmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -695,6 +693,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest.java" />
     <entry file="file://$PROJECT_DIR$/src/sorting/MaxProductOfThree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -723,6 +722,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/Quest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/RegularTest/Camouflage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CaterpillarMethod/CountTriangles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -744,34 +760,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/StreamPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/Quest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/RegularTest/Camouflage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="306">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/dynamicProgramming/GoingToSchool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest/Quest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="271">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

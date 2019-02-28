@@ -1,12 +1,10 @@
 package programmers.CodingTest;
 
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
 
 public class Quest2 {
 
+    //못품
     public static int solution(int[] people, int [] tshirts){
         int answer = 0;
         HashMap<Integer, Integer> tshirtMap = new HashMap<>(), peopleMap = new HashMap<>();
@@ -27,8 +25,6 @@ public class Quest2 {
                 peopleMap.put(key, peopleMap.get(key)+1);
         }
 
-        Set<Integer> tshirtsSet =tshirtMap.keySet();
-        Iterator<Integer> tshirtIt = tshirtsSet.iterator();
 
         return answer;
     }
