@@ -1,4 +1,4 @@
-package programmers.CodingTest.dynamicProgramming;
+package programmers.highScoreKit.dynamicProgramming;
 
 public class GoingToSchool {
 

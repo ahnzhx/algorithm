@@ -1,4 +1,4 @@
-package programmers.CodingTest.RegularTest;
+package programmers.RegularTest;
 
 import java.util.HashMap;
 import java.util.Iterator;

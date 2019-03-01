@@ -1,7 +1,6 @@
-package programmers.CodingTest.dynamicProgramming;
+package programmers.highScoreKit.dynamicProgramming;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 

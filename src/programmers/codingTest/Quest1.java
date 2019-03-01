@@ -1,4 +1,4 @@
-package programmers.CodingTest;
+package programmers.codingTest;
 
 public class Quest1 {
 
