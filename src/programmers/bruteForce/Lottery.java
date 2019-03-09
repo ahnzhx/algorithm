@@ -3,7 +3,9 @@ package programmers.bruteForce;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Lottery {
+//로직 이해안감..
     static ArrayList<Integer> lotto = new ArrayList<>();
 
     static void solve(int[] a, int index, int cnt){
@@ -16,6 +18,8 @@ public class Lottery {
 
         int n = a.length;
         if(n == index) return ;
+
+
         lotto.add(a[index]);
         solve(a, index+1, cnt+1);
         lotto.remove(lotto.size()-1);
