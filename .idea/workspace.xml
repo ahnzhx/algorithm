@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
-      <change afterPath="$PROJECT_DIR$/src/programmers/BitSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/bruteForce/NandM_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/bruteForce/NandM_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/BinaryGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/DfsAndBfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/LabelingTown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/Q1182.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/Q1182.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/QuitingJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/QuitingJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/bruteForce/Q1182.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/bruteForce/Q1182.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +19,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/Q9095.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/Q1759.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="288">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="198">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/DfsAndBfs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="144">
               <caret line="8" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="44" />
             </state>
           </provider>
@@ -112,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/BinaryGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
+            <state relative-caret-position="180">
               <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,11 +105,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="648">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/LabelingTown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/primeAndCompositeNumbers/MinPerimeterRectangle.java" />
         <option value="$PROJECT_DIR$/src/primeAndCompositeNumbers/Peaks.java" />
         <option value="$PROJECT_DIR$/src/primeAndCompositeNumbers/Flags.java" />
         <option value="$PROJECT_DIR$/src/sieveOfEratosthenes/CountSemiprimes.java" />
@@ -209,14 +207,15 @@
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/DfsAndBfs.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/BinaryGraph.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/LabelingTown.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="831" />
-    <option name="y" value="53" />
-    <option name="width" value="849" />
-    <option name="height" value="956" />
+    <option name="x" value="944" />
+    <option name="y" value="23" />
+    <option name="width" value="976" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -226,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -278,11 +278,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552487950861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552558152189" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -307,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryGraph">
+  <component name="RunManager" selected="Application.LabelingTown">
     <configuration name="BinaryGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.BinaryGraph" />
       <module name="fight" />
@@ -321,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.BitSet" />
+    <configuration name="ConnectedComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.ConnectedComponent" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="programmers.dfsAndBfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NandM_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.bruteForce.NandM_1" />
+    <configuration name="LabelingTown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.LabelingTown" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.bruteForce.*" />
+          <option name="PATTERN" value="programmers.dfsAndBfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,11 +387,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LabelingTown" />
+        <item itemvalue="Application.ConnectedComponent" />
         <item itemvalue="Application.BinaryGraph" />
         <item itemvalue="Application.DfsAndBfs" />
         <item itemvalue="Application.NandM_4" />
-        <item itemvalue="Application.NandM_1" />
-        <item itemvalue="Application.BitSet" />
       </list>
     </recent_temporary>
   </component>
@@ -410,10 +409,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="831" y="53" width="849" height="956" extended-state="0" />
+    <frame x="944" y="23" width="976" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.29440993" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.18520783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24939856" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,12 +421,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.50174826" side_tool="true" weight="0.29602888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49667996" weight="0.33796296" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49667996" visible="true" weight="0.33743018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39814815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49136788" visible="true" weight="0.2037037" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49136788" weight="0.19664805" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50332004" side_tool="true" weight="0.4345307" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3263889" />
@@ -472,13 +471,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchAlgorithm/MinMaxDIvision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CaterpillarMethod/AbsDistinct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -771,18 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/Q1759.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="288">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/Lottery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" selection-start-line="21" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/Operator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="198">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -825,14 +807,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/DfsAndBfs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="144">
           <caret line="8" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/BinaryGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="180">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -842,8 +824,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="648">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/Lottery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" selection-start-line="21" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/LabelingTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
