@@ -7,7 +7,6 @@ public class NandM_1 {
     static void go(int index, int selected, int n, int m){
         if(selected == m){
             for(int i =0; i<m; i++){
-                System.out.print(a[i]);
                 if( i != m-1) System.out.print(" ");
             }
             System.out.println();
@@ -16,10 +15,8 @@ public class NandM_1 {
         if(index > n) return ;
         a[selected] = index;
         go(index+1, selected+1, n, m);
-        System.out.println("upper index:"+index);
         a[selected] = 0;
         go(index+1, selected, n, m);
-        System.out.println("down index:"+index);
     }
 
     public static void main(String[] args) {
