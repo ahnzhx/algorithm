@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
-      <change afterPath="$PROJECT_DIR$/src/programmers/bruteForce/InnorulesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/Emoticon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeekWithDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/Algospot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/BreakingWalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/Escape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dynamicProgramming/BuyingCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dynamicProgramming/MakeIntoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dynamicProgramming/SumOfOneTwoThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/dynamicProgramming/TilingTwoxN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/Lottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/Lottery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/NandM_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/bruteForce/NandM_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/dfsAndBfs/LabelingTown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/dfsAndBfs/LabelingTown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/bruteForce/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/bruteForce/Lottery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/bruteForce/NandM_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/bruteForce/NandM_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/dfsAndBfs/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/dfsAndBfs/Maze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/NextPermutation.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Emoticon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/bruteForce/MaximizeDifference.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeekWithDeque.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -48,10 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/BreakingWalls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="1008">
+              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,19 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/DfsAndBfs.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Escape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/LabelingTown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="189">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,49 +74,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/MakeIntoOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeek.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/TilingTwoxN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Emoticon.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/SumOfOneTwoThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeekWithDeque.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/BuyingCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Algospot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -165,14 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CaterpillarMethod/AbsDistinct.java" />
-        <option value="$PROJECT_DIR$/src/CaterpillarMethod/CountDistinctSlices.java" />
-        <option value="$PROJECT_DIR$/src/CaterpillarMethod/CountTriangles.java" />
-        <option value="$PROJECT_DIR$/src/CaterpillarMethod/MinAbsSumOfTwo.java" />
-        <option value="$PROJECT_DIR$/src/greedyAlgorithms/MaxNonoverlappingSegments.java" />
-        <option value="$PROJECT_DIR$/src/greedyAlgorithms/TieRopes.java" />
-        <option value="$PROJECT_DIR$/src/dynamicProgramming/NumberSolitaire.java" />
-        <option value="$PROJECT_DIR$/src/dynamicProgramming/CpptoJava.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/MinAbsSum.java" />
         <option value="$PROJECT_DIR$/src/programmers/Quest1.java" />
         <option value="$PROJECT_DIR$/src/programmers/Quest2.java" />
@@ -210,17 +192,25 @@
         <option value="$PROJECT_DIR$/src/programmers/bruteForce/Lottery.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Mazs.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Mazㄷ.java" />
-        <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Tomato.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeek.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Emoticon.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeekWithDeck.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeekWithDeque.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Algospot.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/BreakingWalls.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Escape.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/MakeInto1.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/MakeIntoOne.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/TilingTwoxN.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/SumOfOneTwoThree.java" />
+        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/BuyingCards.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1028" />
+    <option name="x" value="788" />
     <option name="y" value="23" />
     <option name="width" value="892" />
     <option name="height" value="957" />
@@ -233,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,18 +247,24 @@
               <item name="fight" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="dfsAndBfs" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="RegularTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552893382439" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553674734274" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -292,13 +289,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HideAndSeekWithDeque">
-    <configuration name="Emoticon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.Emoticon" />
+  <component name="RunManager" selected="Application.BuyingCards">
+    <configuration name="BuyingCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dynamicProgramming.BuyingCards" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.dfsAndBfs.*" />
+          <option name="PATTERN" value="programmers.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,21 +303,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HideAndSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.HideAndSeek" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.dfsAndBfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HideAndSeekWithDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.HideAndSeekWithDeque" />
+    <configuration name="Escape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.Escape" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
@@ -345,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.bruteForce.Lottery" />
+    <configuration name="MakeIntoOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dynamicProgramming.MakeIntoOne" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.bruteForce.*" />
+          <option name="PATTERN" value="programmers.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,12 +342,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.dfsAndBfs.Maze" />
+    <configuration name="SumOfOneTwoThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dynamicProgramming.SumOfOneTwoThree" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.dfsAndBfs.*" />
+          <option name="PATTERN" value="programmers.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TilingTwoxN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dynamicProgramming.TilingTwoxN" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HideAndSeekWithDeque" />
-        <item itemvalue="Application.Emoticon" />
-        <item itemvalue="Application.HideAndSeek" />
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.Lottery" />
+        <item itemvalue="Application.BuyingCards" />
+        <item itemvalue="Application.SumOfOneTwoThree" />
+        <item itemvalue="Application.TilingTwoxN" />
+        <item itemvalue="Application.MakeIntoOne" />
+        <item itemvalue="Application.Escape" />
       </list>
     </recent_temporary>
   </component>
@@ -395,10 +392,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1028" y="23" width="892" height="957" extended-state="0" />
+    <frame x="788" y="23" width="892" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.2523585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.32665095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24939856" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,12 +404,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.50174826" side_tool="true" weight="0.29602888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49667996" weight="0.33641618" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49667996" visible="true" weight="0.33641618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32485548" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49136788" weight="0.19664805" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49136788" weight="0.19653179" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50332004" side_tool="true" weight="0.4345307" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32601157" />
@@ -456,66 +453,7 @@
       <window_info anchor="right" id="Key Promoter X" order="8" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/primeAndCompositeNumbers/Peaks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/NumberOfDiscIntersections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/MinAbsSum.java" />
-    <entry file="file://$PROJECT_DIR$/src/primeAndCompositeNumbers/MinPerimeterRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/Distinct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/CodingTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/sorting/MaxProductOfThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/primeAndCompositeNumbers/Flags.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -779,6 +717,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/DfsAndBfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/ConnectedComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -786,13 +731,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/DfsAndBfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -808,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="792">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -818,11 +756,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="522">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Emoticon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeekWithDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/BreakingWalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Algospot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -833,23 +808,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Emoticon.java">
+    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/Escape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="189">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/HideAndSeekWithDeque.java">
+    <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/MakeIntoOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="179">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/TilingTwoxN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/SumOfOneTwoThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/BuyingCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>

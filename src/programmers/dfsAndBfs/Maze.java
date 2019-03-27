@@ -45,7 +45,6 @@ public class Maze {
             Pair p = q.remove();
             int x = p.x;
             int y = p.y;
-            System.out.println(p.x+","+p.y);
             for(int k =0; k<4; k++){
                 int nx = x+dx[k];
                 int ny = y+dy[k];
