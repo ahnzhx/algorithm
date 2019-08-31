@@ -26,14 +26,19 @@ public class TopKFrequentWords {
         PriorityQueue<WordCnt> pq = new PriorityQueue<>(k,
                 (a,b) -> a.cnt-b.cnt != 0 ? a.cnt - b.cnt : b.word.compareTo(a.word));
 
+        //우선순위 큐의 삭제는 가장 높은 우선순위의 데이터를 삭제함
+        //숫자가 작을수록 (1) 우선순위가 높다.
+        //그래서 cnt가 큰 word들만 남는 것임
         for(WordCnt wordCnt : map.values()){
             pq.offer(wordCnt);
-            if(pq.size()>k) pq.poll();
+            if(pq.size()>k) {
+                pq.poll();
+            }
         }
 
         List<String> ret = new ArrayList<>();
         while(!pq.isEmpty()){
-            ret.add(0, pq.poll().word);
+            ret.add(0,pq.poll().word);
         }
         return ret;
 

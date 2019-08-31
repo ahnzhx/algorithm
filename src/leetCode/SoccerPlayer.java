@@ -1,6 +1,6 @@
 package leetCode;
 
-public class SoccerPlayer {
+public class SoccerPlayer{
     private String name;
     private String position;
     private int age;

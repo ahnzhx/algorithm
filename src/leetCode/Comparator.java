@@ -20,18 +20,13 @@ public class Comparator {
         playerList.add(player5);
         playerList.add(player6);
 
-        Collections.sort(playerList, new java.util.Comparator<SoccerPlayer>() {
-            @Override
-            public int compare(SoccerPlayer o1, SoccerPlayer o2) {
-                if(o1.getAge()>o2.getAge()){
-                    return 1;
-                }else if(o1.getAge() < o2.getAge()){
-                    return -1;
-                }else
-                    return 0;
-
-
-            }
+        Collections.sort(playerList, (o1, o2)-> {
+            if (o1.getAge() > o2.getAge()) {
+                return 1;
+            } else if (o1.getAge() < o2.getAge()) {
+                return -1;
+            } else
+                return 0;
         });
 
         for(int i =0; i<playerList.size(); i++){
