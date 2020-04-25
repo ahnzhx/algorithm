@@ -7,21 +7,15 @@ public class TreasureMap {
         String[] answer = new String[n];
 
         // 보물지도 사이즈 체
-        StringBuffer deciFormat = new StringBuffer();
         int k = 0;
-        while(k < n){
-            deciFormat.append("0");
-            k++;
-        }
+
         for(int i =0; i<arr1.length; i++){
             StringBuffer sb = new StringBuffer();
-            // 자리수 맞춰주기
-            DecimalFormat df = new DecimalFormat(deciFormat.toString());
 
             String binaryString1 = Integer.toBinaryString(arr1[i]);
-            String s1 = df.format(Integer.parseInt(binaryString1));
+            String s1 = String.format("%" + n +"s",Integer.parseInt(binaryString1));
             String binaryString2 = Integer.toBinaryString(arr2[i]);
-            String s2 = df.format(Integer.parseInt(binaryString2));
+            String s2 = String.format("%" + n +"s",Integer.parseInt(binaryString2));
             k = 0;
             while(k < n){
                 if(s1.charAt(k) == '1' || s2.charAt(k) == '1'){
@@ -40,6 +34,7 @@ public class TreasureMap {
     // 해답 ,,대단,, 내꺼는 75점임
     public static String[] solution2(int n, int[] arr1, int[] arr2) {
         String[] map = new String[n];
+
         for(int i = 0 ; i < n ; i++) {
             map[i] = Integer.toBinaryString(arr1[i] | arr2[i]);
         }
@@ -52,12 +47,12 @@ public class TreasureMap {
         }
         return map;
     }
+
     public static void main(String[] args) {
         int[] arr1 = {46, 33, 33, 22, 31, 50};
         int[] arr2 = {27, 56, 19, 14, 14, 10};
         String[] answer = solution2(6, arr1, arr2);
         for(int i = 0 ; i<6; i++){
-
             System.out.println(answer[i]);
         }
 
