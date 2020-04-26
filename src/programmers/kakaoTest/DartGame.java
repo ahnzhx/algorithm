@@ -1,9 +1,11 @@
 package programmers.kakaoTest;
 
+import javax.swing.text.AttributeSet;
+
 public class DartGame {
     // 정답,, 나는 못풀었음
     public static int solution2(String dartResult) {
-        int answer = 0;
+
         char[] darts = dartResult.toCharArray();
         int[] score = new int[3];
         int cnt = -1;
@@ -15,7 +17,7 @@ public class DartGame {
                     score[cnt] = 10;
                     i++;
                 } else {
-                    score[cnt] = darts[i] - '0';
+                    score[cnt] = darts[i] -'0';
                 }
             } else if (darts[i] == 'D') {
                 score[cnt] *= score[cnt];
