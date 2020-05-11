@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
-      <change afterPath="$PROJECT_DIR$/src/programmers/naverTest/Budgets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/naverTest/Immigration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/kakaoTest/NewsClustering.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/kakaoTest/CompressString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Budgets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
+            <state relative-caret-position="648">
               <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Immigration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -144,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Maze.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/BreakingWalls.java" />
         <option value="$PROJECT_DIR$/src/programmers/dfsAndBfs/Escape.java" />
         <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/MakeInto1.java" />
@@ -195,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/programmers/kakaoTest/LongestKInterspaceSubstring.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaoTest/test3.java" />
         <option value="$PROJECT_DIR$/src/programmers/naverTest/Budgets.java" />
+        <option value="$PROJECT_DIR$/src/programmers/naverTest/Immigration.java" />
       </list>
     </option>
   </component>
@@ -229,6 +229,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="codility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="naverTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589159049342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589166794570" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -275,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Budgets">
+  <component name="RunManager" selected="Application.Immigration">
     <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.kakaoTest.Bracket" />
       <module name="fight" />
@@ -302,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoTest.CompressString" />
+    <configuration name="Immigration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.naverTest.Immigration" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.kakaoTest.*" />
+          <option name="PATTERN" value="programmers.naverTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Immigration" />
         <item itemvalue="Application.Budgets" />
         <item itemvalue="Application.test3" />
         <item itemvalue="Application.LongestKInterspaceSubstring" />
         <item itemvalue="Application.Bracket" />
-        <item itemvalue="Application.CompressString" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +397,7 @@
     <frame x="0" y="23" width="788" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.34083602" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.34005377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24939856" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -526,13 +533,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/OneTwoThreePlusFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/dynamicProgramming/CountsOfEasySteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -916,8 +916,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Budgets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="648">
           <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Immigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
