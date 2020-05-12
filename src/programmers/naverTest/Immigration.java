@@ -1,7 +1,5 @@
 package programmers.naverTest;
 
-import java.util.Arrays;
-
 public class Immigration {
     public static long solution(int n, int[] times) {
         long answer = Long.MAX_VALUE;
@@ -40,7 +38,7 @@ public class Immigration {
     }
 
     public static void main(String[] args) {
-        int[] times = {7, 10};
-        System.out.println(solution(6, times));
+        int[] times = {7, 10, 13};
+        System.out.println(solution(20, times));
     }
 }
