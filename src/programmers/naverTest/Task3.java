@@ -1,8 +1,5 @@
 package programmers.naverTest;
 
-import java.util.LinkedList;
-import java.util.List;
-
 public class Task3 {
     public static boolean solution(int[] A) {
 
