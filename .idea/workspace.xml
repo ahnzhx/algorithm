@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
+      <change afterPath="$PROJECT_DIR$/src/programmers/DijkstraGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/naverTest/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/naverTest/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/programmers/naverTest/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/programmers/naverTest/Task3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/naverTest/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/naverTest/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/naverTest/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/naverTest/Task3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/TargetNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Task1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" selection-start-line="6" selection-start-column="21" selection-end-line="18" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Task2.java">
+        <entry file="file://$PROJECT_DIR$/src/programmers/DijkstraGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="279">
+              <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,10 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Task3.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/internal/xjc/reader/gbind/Graph.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -137,6 +117,10 @@
       <find>exStr</find>
       <find>awvshefm</find>
       <find>win</find>
+      <find>a</find>
+      <find>calculateMinimumDistance</find>
+      <find>inverseFind</find>
+      <find>dijkstra</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -148,10 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/Stickers.java" />
-        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/DrinkingWine.java" />
-        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/LIS.java" />
-        <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/LDS.java" />
         <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/MaximizeContinuousSum.java" />
         <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/SquareSum.java" />
         <option value="$PROJECT_DIR$/src/programmers/dynamicProgramming/SumOfSquare.java" />
@@ -199,14 +179,18 @@
         <option value="$PROJECT_DIR$/src/programmers/naverTest/Task1.java" />
         <option value="$PROJECT_DIR$/src/programmers/naverTest/Task3.java" />
         <option value="$PROJECT_DIR$/src/programmers/naverTest/Task2.java" />
+        <option value="$PROJECT_DIR$/src/programmers/DijkstraAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/programmers/Graph.java" />
+        <option value="$PROJECT_DIR$/src/programmers/Node.java" />
+        <option value="$PROJECT_DIR$/src/programmers/DijkstraGraph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="861" />
+    <option name="x" value="803" />
     <option name="y" value="23" />
-    <option name="width" value="807" />
-    <option name="height" value="963" />
+    <option name="width" value="877" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,7 +202,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590048518173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592479654181" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -255,13 +239,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="BiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.naverTest.BiggestNumber" />
+  <component name="RunManager" selected="Application.DijkstraGraph">
+    <configuration name="DijkstraGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.DijkstraGraph" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.naverTest.*" />
+          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DijkstraGraph" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.TargetNumber" />
-        <item itemvalue="Application.BiggestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -367,10 +351,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="861" y="23" width="807" height="963" extended-state="0" />
+    <frame x="803" y="23" width="877" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.25445545" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" weight="0.2596754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24939856" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,15 +363,18 @@
       <window_info id="Favorites" order="6" sideWeight="0.50174826" side_tool="true" weight="0.29602888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49456522" visible="true" weight="0.27669346" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49694377" weight="0.4466131" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49456522" visible="true" weight="0.27617952" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49694377" weight="0.3095512" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49862638" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48899755" weight="0.19517796" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48899755" weight="0.19562715" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5110024" side_tool="true" weight="0.19572192" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32513368" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="11" />
+      <window_info anchor="bottom" id="Log Analyzer" order="12" />
+      <window_info anchor="bottom" id="SOQL Query" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -461,6 +448,12 @@
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmers/DijkstraGraph.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -477,6 +470,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>distance[node_index] + graph[node_index][i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>s.substring(i + charSize, i + (charSize*2))</expression-string>
         <language-id>JAVA</language-id>
@@ -522,39 +520,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>cachedCity.equalsIgnoreCase(city)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetCode/TopKFrequentWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode/Proxy/StoreTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/programmers/dfsAndBfs/LabelingTown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode/Proxy/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode/Proxy/Store.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -855,10 +823,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Task3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/programmers/Graph.java" />
+    <entry file="file://$PROJECT_DIR$/src/programmers/DijkstraGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/internal/xjc/reader/gbind/Graph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -904,16 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/naverTest/Task2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
