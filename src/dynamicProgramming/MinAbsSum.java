@@ -4,6 +4,7 @@ import java.io.InputStream;
 import java.util.*;
 
 // 모르겠어,,
+// 해설: https://stackoverflow.com/questions/44897316/codility-minabssum
 public class MinAbsSum {
     static int[] dp;
     public int solution(int[] A) {
