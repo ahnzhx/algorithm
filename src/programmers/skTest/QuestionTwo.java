@@ -1,73 +1,87 @@
 package programmers.skTest;
 
+import java.util.Arrays;
+import java.util.Stack;
+
 public class QuestionTwo {
+    private static class Node {
+        int number;
+        int sum;
+        int depth;
+        Node parent;
+        Node() {}
+        Node(int number, int depth) {
+            this.number = number;
+            this.depth = depth;
+            this.parent = null;
+            this.sum = number;
+        }
+        Node(int number, int depth, Node parent) {
+            this.number = number;
+            this.depth = depth;
+            this.parent = parent;
+            this.sum = this.number + parent.sum;
+        }
+    }
+
     public int[] solution(int[] A, int F, int M ){
-        int[] answer = new int[F+1];
-        int sumOfA = 0; int idx =0;
-        for(int aValue : A){
-            sumOfA += aValue;
-        }
-        int sumOfF = (M * (A.length + F)) - sumOfA;
+        int[] answer = new int[F];
 
-        int everySumCase[][] = new int[F+1][sumOfF+1];
+        int total = M * (A.length + F);
+        int sum = Arrays.stream(A).sum();
+        if(total < sum) return new int[]{0};
 
-        for(int s = 1; s <=6; s++ ){
-            everySumCase[1][s] = 1; // 주사위 1개만 쓸때 초기화
+        int target = total - sum;
+//        System.out.println(target);
+
+        boolean[][] visited = new boolean[F + 1][7];
+        Stack<Node> stack = new Stack<>();
+        int depth = 0;
+
+        for(int i = 1; i <= 6; i++) {
+            if(i == 1) depth++;
+            stack.push(new Node(i, depth));
         }
-        for(int i =2 ; i <= F; i++){
-            for(int j =1; j <= sumOfF ; j ++){
-                if(j <= 6){
-                    for(int k = 1; k < j ; k++){
-                        everySumCase[i][j] += everySumCase[i-1][k];
-                        if(j == sumOfF){
-                            answer[idx++] = k;
-                            answer[idx++] = sumOfF-k;
+
+
+        while(!stack.isEmpty()) {
+            Node node = stack.pop();
+            visited[node.depth][node.number] = true;
+//            System.out.println(String.format("깊이: %d, 노드: %d 방문!", node.depth, node.number));
+
+            if(node.depth < F) {
+                for(int i = 1; i <= 6; i++) {
+                    if(node.depth == F - 1 && node.sum + i == target) {
+                        Node n = node;
+                        int idx = 0;
+                        answer[idx] = i;
+                        while (true) {
+                            answer[++idx] = n.number;
+                            if(n.parent == null) break;
+                            n = n.parent;
                         }
+                        return answer;
                     }
-                }else{
-                    for(int k = j-6; k <= 6 ; k++){
-                        everySumCase[i][j] += everySumCase[i-1][k];
-                        if(j == sumOfF){
-                            answer[idx++] = k;
-                            answer[idx++] = sumOfF-k;
-                        }
 
+                    if(node.sum + i < target && target - (node.sum + i) >= F - node.depth - 1) {
+                        stack.push(new Node(i, node.depth+1, node));
                     }
                 }
-
-
             }
-
         }
 
-
-
-        return answer;
+        return Arrays.stream(answer).allMatch(a -> a == 0) ? new int[]{0} : answer;
     }
+
 
     public static void main(String[] args) {
         int[] a = new int[]{3,2,4,3}; // 6 6
         int[] b = new int[]{1,5,6}; // 2,1,2,4    6,1,1,1
         int[] c = new int[]{1,2,3,4}; // 0
         int[] d = new int[]{6,1}; // 0
-
-
-//        int[] aResult = new QuestionTwo().solution(a, 2,4 );
-
-        int[] bResult = new QuestionTwo().solution(b, 4,3 );
-//        int[] cResult = new QuestionTwo().solution(c, 4,6 );
-
-//        for(int result : aResult){
-//            System.out.println(result);
-//        }
-
-        for(int result : bResult){
-            System.out.println(result);
-        }
-
-//        for(int result : cResult){
-//            System.out.println(result);
-//        }
-
+        System.out.println(Arrays.toString(new QuestionTwo().solution(a, 2, 4)));
+        System.out.println(Arrays.toString(new QuestionTwo().solution(b, 4, 3)));
+        System.out.println(Arrays.toString(new QuestionTwo().solution(c, 4, 6)));
+        System.out.println(Arrays.toString(new QuestionTwo().solution(d, 1, 1)));
     }
 }
