@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/tossTest/QuestFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/tossTest/QuestFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/tossTest/QuestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/tossTest/QuestThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/tossTest/QuestTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmersPaidClass/week1/Harshad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmersPaidClass/week1/Quest67677.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/META-INF/fight.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="877" />
-    <option name="y" value="23" />
-    <option name="width" value="803" />
-    <option name="height" value="1027" />
   </component>
   <component name="ProjectId" id="1fU1aLwDXdQ57ucPwNpSwXIwWQW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,6 +44,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,26 +65,13 @@
       <recent name="leetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuestFour">
-    <configuration name="Backjoon1149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.Backjoon1149" />
+  <component name="RunManager" selected="Application.Quest67677">
+    <configuration name="Harshad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmersPaidClass.week1.Harshad" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Baekjoon9095" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.Baekjoon9095" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.*" />
+          <option name="PATTERN" value="programmersPaidClass.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,6 +85,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quest67677" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmersPaidClass.week1.Quest67677" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmersPaidClass.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,16 +144,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Quest67677" />
+        <item itemvalue="Application.Harshad" />
         <item itemvalue="Application.QuestFour" />
         <item itemvalue="Application.QuestTwo" />
         <item itemvalue="Application.QuestOne" />
-        <item itemvalue="Application.Backjoon1149" />
-        <item itemvalue="Application.Baekjoon9095" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -175,7 +177,9 @@
       <option name="presentableId" value="Default" />
       <updated>1548223746263</updated>
       <workItem from="1596257921939" duration="1462000" />
-      <workItem from="1596259430136" duration="4910000" />
+      <workItem from="1596259430136" duration="5574000" />
+      <workItem from="1596328787825" duration="118000" />
+      <workItem from="1597149417339" duration="4762000" />
     </task>
     <servers />
   </component>
@@ -189,41 +193,57 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="797" height="225" key="GridCell.Tab.0.bottom" timestamp="1596263358940">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1597154599574">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="225" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596263358940" />
-    <state width="797" height="225" key="GridCell.Tab.0.center" timestamp="1596263358939">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599574" />
+    <state width="797" height="371" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975283" />
+    <state width="797" height="225" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082159" />
+    <state width="1638" height="225" key="GridCell.Tab.0.center" timestamp="1597154599574">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="225" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596263358939" />
-    <state width="797" height="225" key="GridCell.Tab.0.left" timestamp="1596263358939">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="225" key="GridCell.Tab.0.center/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599574" />
+    <state width="797" height="371" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975283" />
+    <state width="797" height="225" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082158" />
+    <state width="1638" height="225" key="GridCell.Tab.0.left" timestamp="1597154599573">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="225" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596263358939" />
-    <state width="797" height="225" key="GridCell.Tab.0.right" timestamp="1596263358940">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="225" key="GridCell.Tab.0.left/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599573" />
+    <state width="797" height="371" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975282" />
+    <state width="797" height="225" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082158" />
+    <state width="1638" height="225" key="GridCell.Tab.0.right" timestamp="1597154599574">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="225" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596263358940" />
-    <state width="797" height="371" key="GridCell.Tab.1.bottom" timestamp="1596262554449">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="225" key="GridCell.Tab.0.right/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599574" />
+    <state width="797" height="371" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975283" />
+    <state width="797" height="225" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082158" />
+    <state width="1638" height="371" key="GridCell.Tab.1.bottom" timestamp="1597154599569">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="371" key="GridCell.Tab.1.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596262554449" />
-    <state width="797" height="371" key="GridCell.Tab.1.center" timestamp="1596262554449">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="371" key="GridCell.Tab.1.bottom/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599569" />
+    <state width="797" height="371" key="GridCell.Tab.1.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975368" />
+    <state width="797" height="371" key="GridCell.Tab.1.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082156" />
+    <state width="1638" height="371" key="GridCell.Tab.1.center" timestamp="1597154599569">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="371" key="GridCell.Tab.1.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596262554449" />
-    <state width="797" height="371" key="GridCell.Tab.1.left" timestamp="1596262554448">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="371" key="GridCell.Tab.1.center/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599569" />
+    <state width="797" height="371" key="GridCell.Tab.1.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975367" />
+    <state width="797" height="371" key="GridCell.Tab.1.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082155" />
+    <state width="1638" height="371" key="GridCell.Tab.1.left" timestamp="1597154599569">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="371" key="GridCell.Tab.1.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596262554448" />
-    <state width="797" height="371" key="GridCell.Tab.1.right" timestamp="1596262554449">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state width="1638" height="371" key="GridCell.Tab.1.left/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599569" />
+    <state width="797" height="371" key="GridCell.Tab.1.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975367" />
+    <state width="797" height="371" key="GridCell.Tab.1.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082155" />
+    <state width="1638" height="371" key="GridCell.Tab.1.right" timestamp="1597154599569">
+      <screen x="1920" y="23" width="1680" height="1027" />
     </state>
-    <state width="797" height="371" key="GridCell.Tab.1.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596262554449" />
+    <state width="1638" height="371" key="GridCell.Tab.1.right/1920.23.1680.1027/43.23.1877.1057@1920.23.1680.1027" timestamp="1597154599569" />
+    <state width="797" height="371" key="GridCell.Tab.1.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1597150975368" />
+    <state width="797" height="371" key="GridCell.Tab.1.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596269082155" />
     <state x="908" y="246" width="596" height="580" key="find.popup" timestamp="1596258539496">
       <screen x="43" y="23" width="1637" height="1027" />
     </state>
@@ -306,13 +326,18 @@
           <line>16</line>
           <option name="timeStamp" value="187" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmersPaidClass/week1/Harshad.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmersPaidClass/week1/Quest67677.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="sumOfA - 2 * i" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
