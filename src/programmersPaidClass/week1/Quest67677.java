@@ -2,18 +2,18 @@ package programmersPaidClass.week1;
 
 public class Quest67677 {
     public int solution(int n) {
-        int countOne = numberOfOneCheck(n);
+        int countOne = checkIfItHasOne(n);
 
         int countOneOfNextBigInteger = 0;
-        int nextBigInteger = n;
+        int nextBigNum = n;
         while(countOne != countOneOfNextBigInteger){
-            nextBigInteger++;
-            countOneOfNextBigInteger = numberOfOneCheck(nextBigInteger);
+            nextBigNum++;
+            countOneOfNextBigInteger = checkIfItHasOne(nextBigNum);
         }
-        return nextBigInteger;
+        return nextBigNum;
     }
 
-    public int numberOfOneCheck (int checkingNumber){
+    private int checkIfItHasOne (int checkingNumber){
         int numberOfOne = 0;
         String binaryN = Integer.toBinaryString(checkingNumber);
         char[] charBinaryN  = binaryN.toCharArray();

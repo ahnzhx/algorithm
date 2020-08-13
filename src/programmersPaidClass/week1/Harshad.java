@@ -2,26 +2,23 @@ package programmersPaidClass.week1;
 
 public class Harshad {
     public boolean solution(int x) {
-        int k = 10;
-
+        int copyX = x;
         int sumOfX = 0;
-        sumOfX += x % k;
-        while(k <= x){
-            sumOfX += x / k;
-            k = k * 10;
+
+        while(copyX > 0){
+            sumOfX += copyX % 10;
+            copyX /= 10;
         }
-
-        if(x % sumOfX == 0)
-            return true;
-        else return false;
-
+        return (x % sumOfX) == 0;
     }
 
     public static void main(String[] args) {
-        System.out.println(new Harshad().solution(18));
-        new Harshad().solution(10);
-        new Harshad().solution(12);
-        new Harshad().solution(11);
-        new Harshad().solution(13);
+        //System.out.println(new Harshad().solution(100));
+        System.out.println(new Harshad().solution(199));
+
+//        System.out.println(new Harshad().solution(10));
+//        System.out.println(new Harshad().solution(12));
+//        System.out.println(new Harshad().solution(11));
+//        System.out.println(new Harshad().solution(13));
     }
 }
