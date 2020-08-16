@@ -8,7 +8,7 @@ public class Quest67680 {
         int[] answer = new int[2];
         Set<String> ending = new HashSet<>();
 
-        String wordLastLetter = words[0].substring(words[0].length() - 1);
+        String wordLastLetter = getWordLastLetter(words[0]);
         ending.add(words[0]);
         for(int i =1 ; i< words.length; i++){
             if(!ending.contains(words[i]) && words[i].startsWith(wordLastLetter)){
@@ -23,7 +23,7 @@ public class Quest67680 {
                 }
                 return answer;
             }
-            wordLastLetter = words[i].substring(words[i].length()-1);
+            wordLastLetter = getWordLastLetter(words[i]);
         }
         answer[0] = 0;
         answer[1] = 0;
@@ -31,6 +31,9 @@ public class Quest67680 {
         return answer;
     }
 
+    private String getWordLastLetter(String word){
+        return word.substring(word.length() - 1);
+    }
     public static void main(String[] args) {
         String[] words = new String[]{"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"};
         System.out.println(new Quest67680().solution(3, words));
