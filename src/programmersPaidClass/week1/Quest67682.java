@@ -8,9 +8,10 @@ public class Quest67682 {
         int[] answer = new int[commands.length]; // 행의 길이
         for (int i = 0 ; i< commands.length ; i++){
             int[] extracted = new int[commands[i][1] - commands[i][0] + 1];
+
             System.arraycopy(array, commands[i][0] - 1,  extracted, 0, commands[i][1] - commands[i][0] + 1);
-            IntStream sorted = Arrays.stream(extracted).sorted();
-            extracted = sorted.toArray();
+
+            extracted = Arrays.stream(extracted).sorted().toArray();
             answer[i] = extracted[commands[i][2] - 1];
         }
         return answer;

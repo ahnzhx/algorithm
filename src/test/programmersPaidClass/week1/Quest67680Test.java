@@ -1,19 +1,11 @@
-package programmersPaidClass.week1.test;
+package programmersPaidClass.week1;
 
 
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
-import programmersPaidClass.week1.Quest67680;
 
 public class Quest67680Test extends TestCase {
-    // 대체 constructor는 왜 만들어주는겨~~?~~?
-    public Quest67680Test() {
-    }
-
-    public Quest67680Test(String name) {
-        super(name);
-    }
 
     @Test
     public void testSolution(){

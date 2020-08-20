@@ -2,9 +2,7 @@ package programmersPaidClass.week1;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * 내가 못 푼 문제.. Point와 HistoryPoint 구현법을 알았다.
@@ -22,6 +20,29 @@ public class Quest67679 {
         public Point(int x, int y){
             this.x = x;
             this.y = y;
+        }
+
+        public Point(Point fromPoint) {
+            this.x = fromPoint.x;
+            this.y = fromPoint.y;
+        }
+
+        public Point movePoint(char direction){
+            switch (direction){
+                case 'U':
+                    this.y++;
+                    break;
+                case 'D':
+                    this.y--;
+                    break;
+                case 'L':
+                    this.x--;
+                    break;
+                case 'R':
+                    this.x++;
+                    break;
+            }
+            return this;
         }
 
         @Override
@@ -54,26 +75,11 @@ public class Quest67679 {
     public int solution(String dirs) {
         char[] dirsArray = dirs.toCharArray();
         int answer = 0;
-        //시작점
         Point fromPoint = new Point(0,0);
 
-        // TODO 2. U, D, L, R
         for(char direction : dirsArray){
-            Point toPoint = new Point(fromPoint.x, fromPoint.y);
-            switch (direction){
-                case 'U':
-                    toPoint.y++;
-                    break;
-                case 'D':
-                    toPoint.y--;
-                    break;
-                case 'L':
-                    toPoint.x--;
-                    break;
-                case 'R':
-                    toPoint.x++;
-                    break;
-            }
+            Point toPoint = new Point(fromPoint);
+            toPoint.movePoint(direction);
 
             if(!isOut(toPoint)){
                 if(isFirst(fromPoint, toPoint)){

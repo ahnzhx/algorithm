@@ -13,13 +13,15 @@ public class Quest67680 {
         ending.add(words[0]);
 
         for(int i =1 ; i< words.length; i++){
-            if(!ending.contains(words[i]) && words[i].startsWith(wordLastLetter + "")){
-                ending.add(words[i]);
-            } else if(ending.contains(words[i])){
+            if(ending.contains(words[i])){
                 return checkLoser(answer, n, i);
             } else if(!words[i].startsWith(wordLastLetter + "")){
                 return checkLoser(answer, n, i);
             }
+
+            if(!ending.contains(words[i]) && words[i].startsWith(wordLastLetter + ""))
+                ending.add(words[i]);
+
             wordLastLetter = words[i].charAt(words[i].length()-1);
         }
         answer[0] = 0;
