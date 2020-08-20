@@ -1,7 +1,6 @@
 package programmersPaidClass.week1;
 
 public class Quest67684 {
-    static final int MAX = Integer.MAX_VALUE;
 
     public int solution(String skill, String[] skill_trees) {
         int answer = 0;
