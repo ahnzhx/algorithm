@@ -19,8 +19,8 @@ public class Quest67680 {
                 return checkLoser(answer, n, i);
             }
 
-            if(!ending.contains(words[i]) && words[i].startsWith(wordLastLetter + ""))
-                ending.add(words[i]);
+//            if(!ending.contains(words[i]) && words[i].startsWith(wordLastLetter + ""))
+            ending.add(words[i]);
 
             wordLastLetter = words[i].charAt(words[i].length()-1);
         }

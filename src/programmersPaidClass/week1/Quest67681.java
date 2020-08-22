@@ -1,8 +1,6 @@
 package programmersPaidClass.week1;
 
 public class Quest67681 {
-    public Quest67681() {
-    }
 
     public int solution(int[] nums) {
         int answer = 0;
@@ -11,19 +9,21 @@ public class Quest67681 {
             for(int j =i + 1; j < nums.length - 1; j++){
                 for(int k = j + 1; k < nums.length; k++){
                     int sum = nums[i] + nums[j] + nums[k];
-                    int divide = 2;
-                    answer = isPrime(sum, divide, answer);
+                    if( isPrime(sum))
+                        answer++;
                 }
             }
         }
         return answer;
     }
 
-    private int isPrime(int sum, int divide, int answer){
+    private boolean isPrime(int sum){
+        int divide = 2;
         while(sum % divide != 0 ){
             divide++;
-            if(divide == sum) answer++;
+            if(divide == sum)
+                return true;
         }
-        return answer;
+        return false;
     }
 }

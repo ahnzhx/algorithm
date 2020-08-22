@@ -45,6 +45,13 @@ public class Quest67679 {
             return this;
         }
 
+        private boolean isOut(){
+            if((this.x > MAX || this.x < MIN) || (this.y > MAX || this.y < MIN)){
+                return true;
+            }
+            return false;
+        }
+
         @Override
         public boolean equals(Object o) {
             Point point = (Point) o;
@@ -62,7 +69,6 @@ public class Quest67679 {
             this.toPoint = toPoint;
         }
 
-        // 구현해줘야 할까?
         @Override
         public boolean equals(Object o) {
             HistoryPoint other = (HistoryPoint) o;
@@ -81,7 +87,7 @@ public class Quest67679 {
             Point toPoint = new Point(fromPoint);
             toPoint.movePoint(direction);
 
-            if(!isOut(toPoint)){
+            if(!toPoint.isOut()){
                 if(isFirst(fromPoint, toPoint)){
                     histories.add(new HistoryPoint(fromPoint, toPoint));
                     histories.add(new HistoryPoint(toPoint, fromPoint));
@@ -93,14 +99,11 @@ public class Quest67679 {
         return answer;
     }
 
-    private boolean isOut(Point toPoint){
-        if((toPoint.x > MAX || toPoint.x < MIN) || (toPoint.y > MAX || toPoint.y < MIN)){
-            return true;
-        }
-        return false;
-    }
     private boolean isFirst(Point fromPoint, Point toPoint){
-        return !histories.contains(new HistoryPoint(fromPoint, toPoint));
+        HistoryPoint historyPoint = new HistoryPoint(fromPoint, toPoint);
+        boolean result = !histories.contains(historyPoint);
+        historyPoint = null;
+        return result;
     }
 
     public static void main(String[] args) {
