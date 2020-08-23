@@ -1,7 +1,9 @@
 package programmersPaidClass.week1;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.stream.Stream;
 
 public class Quest67680 {
 
@@ -30,7 +32,10 @@ public class Quest67680 {
         return answer;
     }
 
-
+    // 종단 연산(collect,reduce,foreach) 가 없다면, 스트림에 사용된 (1,2,3,4) 원소는 직접 연산에 사용되지 않는다는 뜻입니다.
+    public void test(){
+        Stream.of(1,2,3,4).map(i -> i*3).filter( i -> i/2 == 0).toArray();
+    }
     private int[] checkLoser(int[] answer, int n, int i){
         if((i+1) % n == 0){
             answer[0] = n;
