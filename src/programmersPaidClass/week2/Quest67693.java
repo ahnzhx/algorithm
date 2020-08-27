@@ -3,39 +3,64 @@ package programmersPaidClass.week2;
 import java.util.LinkedList;
 import java.util.Queue;
 
+
 public class Quest67693 {
+    public int sumOfTrucksWeights ;
+
+    class Truck{
+        private int weight;
+        private int distance;
+
+        public int getWeight() {
+            return weight;
+        }
+
+        public int getDistance() {
+            return distance;
+        }
+
+        public Truck(int weight, int distance) {
+            this.weight = weight;
+            this.distance = distance;
+        }
+
+        public boolean isPossibleToCross(int weight){
+            if(sumOfTrucksWeights + this.weight <= weight){
+                return true;
+            }
+            return false;
+        }
+
+        public void moveTruck(){
+            this.distance -= 1;
+        }
+    }
+
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         int totalSecond = 0;
-        Queue<Integer> bridge = new LinkedList<>();
+        Queue<Truck> waitTruck = new LinkedList<>();
+        Queue<Truck> crossTruck = new LinkedList<>();
 
-        int sum = 0; int i =0;
-        while(true){
+        for(int truckWeight : truck_weights){
+            waitTruck.add(new Truck(truckWeight, bridge_length ));
+        }
 
+        while(!waitTruck.isEmpty() || !crossTruck.isEmpty()){
             totalSecond++;
-            if (sum + truck_weights[i] > weight) {
-                bridge.add(-1); // 한칸 이동했다는 표시임
-            } else {
-                bridge.add(truck_weights[i]);
-                sum += truck_weights[i];
-                i++;
-            }
 
-            if (bridge.size() > bridge_length) {
-                sum -= bridge.poll();
-
-                if(sum + truck_weights[i] < weight) {
-                    bridge.add(truck_weights[i]);
-                    sum += truck_weights[i];
-                    bridge.poll();
-                    if(i < truck_weights.length-1){
-                        i++;
-                    }
-                    if(i == truck_weights.length){
-                        break;
-                    }
+            if(crossTruck.size() > 0){
+                if(crossTruck.peek().distance == 0){
+                    sumOfTrucksWeights -= crossTruck.remove().getWeight();
                 }
             }
-
+            if(waitTruck.size() > 0 ) {
+                if (waitTruck.peek().isPossibleToCross(weight)) {
+                    Truck truck = waitTruck.poll();
+                    sumOfTrucksWeights += truck.getWeight();
+                    crossTruck.offer(truck);
+                }
+            }
+            crossTruck.stream().forEach(t -> t.moveTruck());
         }
         return totalSecond;
     }
