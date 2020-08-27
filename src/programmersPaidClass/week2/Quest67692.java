@@ -8,19 +8,20 @@ public class Quest67692 {
     public int[] solution(int[] progresses, int[] speeds) {
         List<Integer> answerList = new ArrayList<>();
         List<Integer> daysList = new ArrayList<>();
-        int days = 1;
+
         for(int i = 0 ; i< progresses.length; i++){
+            int days = 1;
             while(progresses[i] + speeds[i] * days < 100){
                 days++;
             }
             daysList.add(days);
-            days = 1;
         }
 
-        int index =0; int k = index;
+        int index =0;
+        int k = index;
         while(index < daysList.size()){
             if(k == daysList.size()){
-                answerList.add(k - index);
+                answerList.add(k-index);
                 break;
             }
 
