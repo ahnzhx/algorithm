@@ -5,22 +5,23 @@ import java.util.*;
 //TODO: 못 풀었음
 public class Quest67700 {
     public int solution(int stock, int[] dates, int[] supplies, int k) {
-        int answer = 0;
-        Queue<Integer> factory = new PriorityQueue<>(Collections.reverseOrder());
+        List<Integer> possibleCaseList = new ArrayList<>();
 
-        int supplyIdx =0;
-        for(int i =0 ; i < k; i++){
-            if(supplyIdx < dates.length && i == dates[supplyIdx]){
-                factory.offer(supplies[supplyIdx]);
-                supplyIdx++;
+        while ( true){
+            int sumOfStock = stock;
+            int answer = 0;
+            for(int i =0 ; i< dates.length ; i++){
+                if(sumOfStock < k){
+                    sumOfStock += supplies[i];
+                    answer++;
+                }
+
             }
-            --stock;
-            if(stock == -1){
-                stock += factory.poll();
-                ++answer;
+            if(answer > 0){
+                possibleCaseList.add(answer);
             }
+            break;
         }
-
-        return answer;
+        return 0;
     }
 }
