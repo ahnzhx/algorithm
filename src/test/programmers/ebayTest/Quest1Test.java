@@ -9,5 +9,4 @@ public class Quest1Test extends TestCase {
         int[][] R = new int[][]{{1,2}, {2,4}, {1,4}, {6,5}, {3,5}, {4,6}};
         assertEquals(35, quest1.solution(T, R, 5));
     }
-
 }
