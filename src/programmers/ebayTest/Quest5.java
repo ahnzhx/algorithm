@@ -4,6 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.function.Predicate;
 
+// 풀음
 public class Quest5 {
     public int solution(int N, int[][] simulation_data) {
         int answer = 0;
