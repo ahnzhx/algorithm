@@ -12,7 +12,7 @@ public class Quest67702Test extends TestCase {
 
         assertEquals(4, quest67702.solution("hit", "cog", words1));
         assertEquals(0, quest67702.solution("hit", "cog", words2));
-        assertEquals(4, quest67702.solution("hit", "cog", words3));
+        assertEquals(5, quest67702.solution("hit", "cog", words3));
         assertEquals(0, quest67702.solution("hit", "cog", words4));
     }
 
