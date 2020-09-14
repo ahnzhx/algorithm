@@ -77,7 +77,6 @@ public class Backjoon2178 {
                 visited.put(next, visited.get(now)+1);
             }
         }
-
         return -1;
     }
 }
