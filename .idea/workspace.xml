@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="s.">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/dp/Backjoon11726.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/bfs/Backjoon2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/bfs/Backjoon2178.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -234,7 +234,10 @@
       <workItem from="1599701662122" duration="523000" />
       <workItem from="1599721299700" duration="7216000" />
       <workItem from="1599819637388" duration="737000" />
-      <workItem from="1600081129077" duration="558000" />
+      <workItem from="1600081129077" duration="613000" />
+      <workItem from="1600213114891" duration="231000" />
+      <workItem from="1600247767719" duration="387000" />
+      <workItem from="1600260874136" duration="33000" />
     </task>
     <servers />
   </component>
