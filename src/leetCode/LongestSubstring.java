@@ -1,7 +1,7 @@
 package leetCode;
 
-class LongestSubstringWithoutRepeatingCharacters {
+public class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-        
+        return 0;
     }
 }
