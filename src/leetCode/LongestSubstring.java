@@ -7,12 +7,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/**
- * 내가 처음 생각했던 풀이법 
- * substrSizeList.add(sCharChkQueue.size());
-   sCharChkQueue.clear(); // 클리어 할때도 poll 하나
-   sCharChkQueue.add(sChar); 
- */
 public class LongestSubstring {
 	public static int lengthOfLongestSubstring(String s) {
 		
