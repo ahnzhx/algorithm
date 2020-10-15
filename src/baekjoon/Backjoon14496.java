@@ -1,7 +1,6 @@
 package baekjoon;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Backjoon14496 {
     static class Pair{
@@ -58,9 +57,10 @@ public class Backjoon14496 {
 	     int first = sc.nextInt();
 	     int next = sc.nextInt();
 	     
-	     pairList.add(new Pair(first, next));
-	     
-	     sc.close();
+	    pairList.add(new Pair(first, next));
+        pairList.add(new Pair(next, first));
+
+        sc.close();
 	        	
         List<Integer> endList;
         for(Pair pair : pairList){
