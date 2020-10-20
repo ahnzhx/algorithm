@@ -3,44 +3,31 @@ package leetCode;
 
 public class LongestPalindromicSubstring {
 
-	public static String longestPalindrome(String s) {
-		int n = s.length();
-		char[] c = s.toCharArray();
-		Boolean[][] dp = new Boolean[n][n];
-		int start, end;
-		start = end = 0;
-		for (int i= n-1; i>= 0; i--) {
-			for (int j = i; j<n; j++) {
-				if (j-i < 3) { //base case
-					dp[i][j] = (c[i] == c[j]);
-				} else {
-					dp[i][j] = (c[i] == c[j] && dp[i+1][j-1]);
-				}
+	public String solution(String s) {
+		if(s == null || s.length() <1) return "";
+		int start = 0;
+		int end = 0;
 
-				if (dp[i][j] && (end-start <= j-i)) {
-					start = i;
-					end = j;
-				}
+		for(int i =0 ; i< s.length(); i++){
+			int len1 = expandFromMiddle(s, i, i);
+			int len2 = expandFromMiddle(s, i, i+1);
+			int len = Math.max(len1, len2);
+
+			if(len > end - start){
+				start = i - ((len-1) / 2);
+				end = i + (len /2);
 			}
 		}
-		return s.substring(start, end+1);
+		return s.substring(start, end + 1);
 	}
-	
-	public static void main(String[] args) {
-		String s1 = "babad";
-		String s2 = "cbbd";
-		String s3 = "a";
-		String s4 = "ac";
-		String s5 = "ccc";
 
-		String s6 = "caba";
-
-//		System.out.println(longestPalindrome(s1));
-//		System.out.println(longestPalindrome(s2));
-//		System.out.println(longestPalindrome(s3));
-//		System.out.println(longestPalindrome(s4));
-//		System.out.println(longestPalindrome(s5));
-		System.out.println(longestPalindrome(s6));
+	public int expandFromMiddle(String s, int left, int right){
+		if(s == null || left > right) return 0;
+		while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
+			left-- ;
+			right++;
+		}
+		return right - left -1;
 	}
 	
 }
