@@ -1,25 +1,50 @@
 package baekjoon;
 
+
 import java.util.*;
 
 public class Baekjoon2529 {
 
+    static boolean[] check = new boolean[10];
+    static int n ;
+    static char[] a = new char[10];
+    static List<String> ans = new ArrayList<>();
+
+    static boolean ck (char a, char b, char c){
+        if(c == '<'){
+            if(a > b) return false;
+        }
+        if(c == '>'){
+            if(a < b) return false;
+        }
+        return true;
+    }
+
+    static void go(int index, String num){
+        if(index == n+1){
+            ans.add(num);
+        }
+
+        for(int i =0 ; i<= 9; i++){
+            if(check[i]) continue;
+            if(index == 0 || ck(num.charAt(index-1), (char) (i+'0'), a[index-1])){
+                check[i] = true;
+                go(index +1, num + Integer.toString(i));
+                check[i] = false;
+            }
+        }
+
+    }
     public static void main(String[] args) {
-        int[] numb = new int[]{0,1,2,3,4,5,6,7,8,9};
-        boolean[] chk = new boolean[10];
-        String[] ineqArr = new String[10];
-
-        Scanner scanner = new Scanner(System.in);
-        int ineqSignNum = scanner.nextInt();
-        for(int i =0 ; i< ineqSignNum ; i++){
-            ineqArr[i] = scanner.next();
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        for(int i =0 ; i< n; i++){
+            a[i] = sc.next().toCharArray()[0];
         }
 
-        // max 값 구할 때
-        for(int ){
-
-        }
-        // min 값 구할 때
-
+        go(0, "");
+        Collections.sort(ans);
+        System.out.println(ans.get(ans.size()-1));
+        System.out.println(ans.get(0));
     }
 }
