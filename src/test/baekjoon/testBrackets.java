@@ -10,14 +10,9 @@ public class testBrackets extends TestCase {
         String b = "(]";
         String c = "([)]";
         String d = "";
-//        assertTrue(TT.isValid(a));
-//        assertFalse(TT.isValid(b));
-//        assertFalse(TT.isValid(c));
-//        assertTrue(TT.isValid(d));
-
-        assertTrue(TT.solution(a));
-        assertFalse(TT.solution(b));
-        assertFalse(TT.solution(c));
-        assertTrue(TT.solution(d));
+        assertTrue(TT.isValid(a));
+        assertFalse(TT.isValid(b));
+        assertFalse(TT.isValid(c));
+        assertTrue(TT.isValid(d));
     }
 }
