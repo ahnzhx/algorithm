@@ -1,21 +1,20 @@
-package baekjoon;
+package algoTest.hyperConnect;
 
-import java.util.Hashtable;
 import java.util.function.Function;
 
 public class Ship {
-    private Hashtable<Integer, Integer> containers;
+    private Integer[] containers;
 
     public Ship(int containerCount, Function<Integer, Integer> fillContainer) {
-        this.containers = new Hashtable<Integer, Integer>();
+        this.containers = new Integer[containerCount];
 
         for (int i = 0; i < containerCount; i++) {
-            this.containers.put(i, fillContainer.apply(i));
+            this.containers[i] = fillContainer.apply(i);
         }
     }
 
     public int peekContainer(int containerIndex) {
-        return this.containers.get(containerIndex);
+        return this.containers[containerIndex];
     }
 
     public static void main(String[] args) {

@@ -1,10 +1,11 @@
 package baekjoon;
 
+import algoTest.hyperConnect.Brackets;
 import junit.framework.TestCase;
 
-public class testTest extends TestCase {
+public class testBrackets extends TestCase {
     public void test(){
-        test TT = new test();
+        Brackets TT = new Brackets();
         String a = "[{()}]";
         String b = "(]";
         String c = "([)]";
