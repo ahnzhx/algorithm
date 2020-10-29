@@ -2,15 +2,18 @@ package baekjoon;
 
 import java.util.*;
 
-//50점?
 public class Baekjoon15829 {
     public static long solution(String str){
         char[] strs = str.toCharArray();
-        long sum  = 0l ;
-        for(int i =0 ; i < strs.length ; i++){
-            sum += (strs[i] - 96) * Math.pow(31, i);
+        long sum  = 0l;
+        for(int i =0; i < strs.length; i++){
+            long multiplied = 1;
+            for(int j = 0 ; j < i ; j ++){
+                multiplied *= 31 * j % 1234567891;
+            }
+            sum += (strs[i] - '`') * multiplied;
         }
-        return sum;
+        return sum % 1234567891;
     }
 
     public static void main(String[] args) {
