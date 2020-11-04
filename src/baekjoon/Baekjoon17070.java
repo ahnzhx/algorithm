@@ -1,67 +1,51 @@
 package baekjoon;
 
-import java.util.*;
+import java.util.Scanner;
 
+// Todo: 이해해야함
 public class Baekjoon17070 {
     static int N;
-    class Pipe {
-        private int x;
-        private int y;
+    static int[] dx = { 0, 1, 1 };
+    static int[] dy = { 1, 1, 0 };
+    static int[][] map;
+    static int[][][] cache;
 
-        public Pipe(int x, int y){
-            this.x = x;
-            this.y = y;
-        }
-
-        public void right(int x, int y){
-            this.x = x;
-            this.y = y+ 1;
-        }
-
-        public void down(int x, int y){
-            this.x = x+1;
-            this.y = y;
-        }
-        public void rightCross(int x, int y){
-            this.x = x + 1;
-            this.y = y + 1;
-        }
-
-        public boolean isAllowed(){
-            int[] x = new int[]{0, 1, 1};
-            int[] y = new int[]{1, 0, 1};
-
-            for(int i = 0; i < 3; i++){
-                if(this.x + x[i] > N-1) return false;
-                if(this.y + y[i] > N-1) return false;
-            }
-            return true;
-        }
-    }
-    public static int solution(int[][] newHouse){
-        boolean[][] visited = new boolean[N][N];
-        visited[0][0] = true;
-        visited[0][1] = true;
-        // 이전 파이프도 체크해줘야 함
-
-        for(int i =0 ; i < N; i++){
-            for(int j = 1; j < N; j++){
-
-            }
-        }
-
-        return 0;
-    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();
-        int[][] newHouse = new int[N][N];
-        for(int i = 0 ; i < N; i++){
-            for(int j = 0 ; j < N; j++){
-                newHouse[i][j] = sc.nextInt();
+        map = new int[N][N];
+        cache = new int[N][N][3];
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < N; j++) {
+                map[i][j] = sc.nextInt();
+                for(int k = 0; k < 3; k++)
+                    cache[i][j][k] = -1;
             }
-        }
+        System.out.println(solve(0, 0, 1));
+        sc.close();
+    }
 
-        System.out.println(solution(newHouse));
+    static int solve(int prev, int x, int y) {
+        if (x >= N || y >= N || map[x][y] == 1 || !canMove(prev,x,y))
+            return 0;
+        if (x == N - 1 && y == N - 1)
+            return 1;
+        if (cache[x][y][prev] != -1)
+            return cache[x][y][prev];
+        cache[x][y][prev] = 0;
+        for (int i = 0; i < 3; i++) {
+            if ((prev == 0 && i == 2) || (prev == 2 && i == 0))
+                continue;
+            cache[x][y][prev] += solve(i, x + dx[i], y + dy[i]);
+        }
+        return cache[x][y][prev];
+    }
+
+    static boolean canMove(int prev, int x, int y) {
+        if (prev == 0 || prev == 2)
+            return map[x][y] == 0;
+        if (prev == 1)
+            return map[x][y] == 0 && map[x - 1][y] == 0 && map[x][y - 1] == 0;
+        return false;
     }
 }
