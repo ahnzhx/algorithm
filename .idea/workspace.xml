@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/Jgha_test_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/Shahn2_test_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/Baekjoon15649.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/Baekjoon1759.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/KdiffPairsInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/MaximumProductSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/MinimumDifferenceinBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/climbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/generateParenthese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/algoTest/kakao210331/Test1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/algoTest/naverTest/naverFinancial/Jgha_test_3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/algoTest/naverTest/naverFinancial/Shahn2_test_3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/CombinationSum3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/algoTest/naverTest/naverFinancial/NTest1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/algoTest/naverTest/naverFinancial/NTest1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,9 +101,35 @@
       <recent name="leetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSum">
+  <component name="RunManager" selected="Application.CombinationSum2">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.CombinationSum" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.CombinationSum2" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.CombinationSum3" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
@@ -157,19 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumProductSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.MaximumProductSubarray" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.MaximumSubarray" />
       <module name="fight" />
@@ -183,26 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="climbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.climbingStairs" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSum2" />
+        <item itemvalue="Application.CombinationSum3" />
         <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.MaximumSubarray" />
-        <item itemvalue="Application.MaximumProductSubarray" />
-        <item itemvalue="Application.climbingStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +322,9 @@
       <workItem from="1648169276064" duration="15461000" />
       <workItem from="1648272882256" duration="17053000" />
       <workItem from="1651053605115" duration="2757000" />
-      <workItem from="1651817618482" duration="4120000" />
+      <workItem from="1651817618482" duration="4831000" />
+      <workItem from="1652853498803" duration="4349000" />
+      <workItem from="1653833064264" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -759,6 +745,11 @@
           <url>file://$PROJECT_DIR$/src/leetCode/CombinationSum.java</url>
           <line>18</line>
           <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/CombinationSum3.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="492" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
