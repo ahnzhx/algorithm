@@ -1,8 +1,7 @@
 package leetCode.graph;
 
 public class NumberOfIslands {
-    static int numberOfIsland = 0;
-    public static int numIslands(char[][] grid) {
+    public int numIslands(char[][] grid) {
         int row = grid.length;
         int col = grid[0].length;
 
@@ -26,7 +25,7 @@ public class NumberOfIslands {
         return cnt;
     }
 
-    public static void checkIsland(boolean[][] visited, char[][] grid, int i, int j, int cnt){
+    public void checkIsland(boolean[][] visited, char[][] grid, int i, int j, int cnt){
 
         if(grid[i][j] == '1'){
             visited[i][j] = true;
@@ -54,21 +53,4 @@ public class NumberOfIslands {
 
     }
 
-    public static void main(String[] args) {
-
-        char[][] grid = {
-                {'1','1','0','0','0'},
-                {'1','1','0','0','0'},
-                {'0','0','1','0','0'},
-                {'0','0','0','1','1'}
-        };
-
-//        char[][] grid = {
-//                {'1','1','1'},
-//                {'0','1','0'},
-//                {'1','1','1'}
-//
-//        };
-        System.out.println(numIslands(grid));
-    }
 }
