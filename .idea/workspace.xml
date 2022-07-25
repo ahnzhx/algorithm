@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/ShortestPathInBinaryMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fight/dynamicProgramming/CpptoJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicProgramming/CpptoJava.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,7 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EditDistance">
+  <component name="RunManager" selected="Application.ShortestPathInBinaryMatrix">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.graph.ContainerWithMostWater" />
       <module name="fight" />
@@ -167,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.graph.NumberOfIslands" />
+    <configuration name="ShortestPathInBinaryMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.ShortestPathInBinaryMatrix" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.*" />
+          <option name="PATTERN" value="dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestPathInBinaryMatrix" />
         <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.DeleteOperationForTwoStrings" />
         <item itemvalue="Application.MaxAreaOfIsland" />
         <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.NumberOfIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +335,16 @@
       <workItem from="1657163679289" duration="6663000" />
       <workItem from="1657262302215" duration="516000" />
       <workItem from="1657522642911" duration="992000" />
-      <workItem from="1657527601917" duration="607000" />
+      <workItem from="1657527601917" duration="831000" />
+      <workItem from="1658024935789" duration="152000" />
+      <workItem from="1658028964759" duration="7797000" />
+      <workItem from="1658102366564" duration="10384000" />
+      <workItem from="1658115209396" duration="10716000" />
+      <workItem from="1658199713369" duration="2959000" />
+      <workItem from="1658202867503" duration="6692000" />
+      <workItem from="1658381008863" duration="11944000" />
+      <workItem from="1658462255343" duration="7683000" />
+      <workItem from="1658718953329" duration="2912000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -626,168 +637,17 @@
           <option name="timeStamp" value="372" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/Baekjoon1753.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="376" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/Baekjoon15829.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="391" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/Baekjoon17070.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="392" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/dp/Baekjoon2839.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="398" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/dp/Baekjoon12865_1.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="401" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/testAlgi/test1.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="403" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/testAlgi/test2.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="404" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/Jgha_test_1.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="418" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/Jgha_test_2.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="423" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/Shahn2_test_1.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="424" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/Shahn2_test_3.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="430" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/NTest1.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="433" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/naverTest/naverFinancial/NTest1.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="434" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/kakao210331/Test1.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="440" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/kakao210331/Test2.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="446" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/kakao210331/Test2.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="449" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/kakao210331/Test3.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="453" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algoTest/kakao210405/Test2.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="456" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/generateParenthese.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="458" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/Baekjoon15649.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="459" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/baekjoon/Baekjoon15649.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="468" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/KdiffPairsInAnArray.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="469" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/climbingStairs.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="472" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/MaximumProductSubarray.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="477" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/CombinationSum.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="489" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/CombinationSum3.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="492" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/CombinationSum2.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="493" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/graph/NumberOfIslands.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="503" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/graph/ContainerWithMostWater.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="506" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/MaxAreaOfIsland.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="508" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/MaxAreaOfIsland.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="510" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/EditDistance.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="511" />
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/ShortestPathInBinaryMatrix.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="526" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="254" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="513" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/programmersPaidClass/week2/Quest67690Test.java</url>
@@ -837,6 +697,10 @@
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="needs.length" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="M[i][j]" language="JAVA" />
+        <watch expression="newLocArr[k] " language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
