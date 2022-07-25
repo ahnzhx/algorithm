@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/ShortestPathInBinaryMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/MinimumPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fight/dynamicProgramming/CpptoJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicProgramming/CpptoJava.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,20 +101,7 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestPathInBinaryMatrix">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.graph.ContainerWithMostWater" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumPathSum">
     <configuration name="DeleteOperationForTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.DeleteOperationForTwoStrings" />
       <module name="fight" />
@@ -169,6 +154,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MinimumPathSum" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShortestPathInBinaryMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.ShortestPathInBinaryMatrix" />
       <module name="fight" />
@@ -184,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumPathSum" />
         <item itemvalue="Application.ShortestPathInBinaryMatrix" />
         <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.DeleteOperationForTwoStrings" />
         <item itemvalue="Application.MaxAreaOfIsland" />
-        <item itemvalue="Application.ContainerWithMostWater" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +342,7 @@
       <workItem from="1658202867503" duration="6692000" />
       <workItem from="1658381008863" duration="11944000" />
       <workItem from="1658462255343" duration="7683000" />
-      <workItem from="1658718953329" duration="2912000" />
+      <workItem from="1658718953329" duration="4624000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -640,6 +638,11 @@
           <url>file://$PROJECT_DIR$/src/dynamicProgramming/ShortestPathInBinaryMatrix.java</url>
           <line>40</line>
           <option name="timeStamp" value="526" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/MinimumPathSum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="527" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
