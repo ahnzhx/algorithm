@@ -1,18 +1,53 @@
 package leetCode.backTracking;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class ValidSudoku {
     public static boolean isValidSudoku(char[][] board) {
-        Set<String> seen =new HashSet();
-        for(int i=0;i<9;i++){
-            for(int j=0;j<9;j++){
-                char val=board[i][j];
-                if(val!='.'){
-                    if(!seen.add(val+"found in row"+i)||
-                            !seen.add(val+"found in column"+ j)||
-                            !seen.add(val+"found in box"+i/3+"-"+j/3))return false;
+        int col = -1, row = -1;
+
+        for(int i = 0 ; i < board.length; i++){
+            for(int j = 0 ; j < board.length; j++){
+                if(board[i][j] != '.'){
+                    row = i;
+                    col = j;
+                    if(!isValid(board, row, col, board[i][j])){
+                        return false;
+                    }
+                }
+            }
+        }
+
+        return true;
+    }
+
+    public static boolean isValid(char[][] board, int row, int col, char candidate) {
+        // col check
+        for(int i =0 ; i < board.length; i++){
+            if(i != col){
+                if(board[row][i] == candidate){
+                    return false;
+                }
+            }
+
+        }
+        // row check
+        for(int i =0 ; i < board.length; i++){
+            if(i != row){
+                if(board[i][col] == candidate ){
+                    return false;
+                }
+            }
+
+        }
+        // square check
+        int sqrt = (int) Math.sqrt(board.length);
+        int rowStart = row - row%sqrt;
+        int colStart = col - col%sqrt;
+        for(int r = rowStart; r < rowStart + sqrt; r++){
+            for(int c = colStart; c < colStart + sqrt; c++){
+                if(r != row && c != col){
+                    if(board[r][c] == candidate ){
+                        return false;
+                    }
                 }
             }
         }

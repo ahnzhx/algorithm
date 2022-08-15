@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/BestTimeToBuyAndSellStocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/NonOverlappingLineSegments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,7 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SudokuSolver">
+  <component name="RunManager" selected="Application.ValidSudoku">
     <configuration name="Intro" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="divideAndConquer.Intro" />
       <module name="fight" />
@@ -185,9 +182,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidSudoku" />
         <item itemvalue="Application.SudokuSolver" />
         <item itemvalue="Application.NonOverlappingLineSegments" />
-        <item itemvalue="Application.ValidSudoku" />
         <item itemvalue="Application.MinimumPathSum" />
         <item itemvalue="Application.ShortestPathInBinaryMatrix" />
       </list>
@@ -354,7 +351,8 @@
       <workItem from="1659530899648" duration="758000" />
       <workItem from="1659532226153" duration="1118000" />
       <workItem from="1659771796220" duration="1194000" />
-      <workItem from="1660482408763" duration="5376000" />
+      <workItem from="1660482408763" duration="6820000" />
+      <workItem from="1660576583091" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -657,39 +655,19 @@
           <option name="timeStamp" value="527" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="534" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dynamicProgramming/NonOverlappingLineSegments.java</url>
           <line>10</line>
           <option name="timeStamp" value="545" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/SudokuSolver.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="547" />
+          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="560" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/SudokuSolver.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="556" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/SudokuSolver.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="557" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/SudokuSolver.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="558" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/SudokuSolver.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="559" />
+          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="561" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
@@ -753,6 +731,7 @@
         <watch expression="board[i][j]" language="JAVA" />
         <watch expression="num" language="JAVA" />
         <watch expression="board[row][col]" language="JAVA" />
+        <watch expression="board[row][i] == candidate" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
