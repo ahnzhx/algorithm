@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/FibonacciNumbers/WhoseSumIsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/MinAreaRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/graph/CourseSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/backTracking/ValidSudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +105,7 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidSudoku">
+  <component name="RunManager" selected="Application.MinAreaRect">
     <configuration name="Intro" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="divideAndConquer.Intro" />
       <module name="fight" />
@@ -115,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MinimumPathSum" />
+    <configuration name="MinAreaRect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.MinAreaRect" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="PATTERN" value="leetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,25 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonOverlappingLineSegments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.NonOverlappingLineSegments" />
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.PalindromeNumber" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShortestPathInBinaryMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.ShortestPathInBinaryMatrix" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="PATTERN" value="leetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +171,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhoseSumIsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FibonacciNumbers.WhoseSumIsK" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FibonacciNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinAreaRect" />
+        <item itemvalue="Application.WhoseSumIsK" />
+        <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.ValidSudoku" />
         <item itemvalue="Application.SudokuSolver" />
-        <item itemvalue="Application.NonOverlappingLineSegments" />
-        <item itemvalue="Application.MinimumPathSum" />
-        <item itemvalue="Application.ShortestPathInBinaryMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +356,11 @@
       <workItem from="1659532226153" duration="1118000" />
       <workItem from="1659771796220" duration="1194000" />
       <workItem from="1660482408763" duration="6820000" />
-      <workItem from="1660576583091" duration="3045000" />
+      <workItem from="1660576583091" duration="4004000" />
+      <workItem from="1660580856313" duration="33000" />
+      <workItem from="1660580905645" duration="1743000" />
+      <workItem from="1662135133033" duration="1135000" />
+      <workItem from="1662298733227" duration="11672000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -669,6 +677,26 @@
           <line>23</line>
           <option name="timeStamp" value="561" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/PalindromeNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="563" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FibonacciNumbers/WhoseSumIsK.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/MinAreaRect.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/MinAreaRect.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="254" />
@@ -728,10 +756,8 @@
       </configuration>
       <configuration name="Application">
         <watch expression="i" language="JAVA" />
-        <watch expression="board[i][j]" language="JAVA" />
-        <watch expression="num" language="JAVA" />
-        <watch expression="board[row][col]" language="JAVA" />
-        <watch expression="board[row][i] == candidate" language="JAVA" />
+        <watch expression="pointsMap.get(xPoints[i])" language="JAVA" />
+        <watch expression="pointsMap.get(xPoints[j])" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
