@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/FibonacciNumbers/WhoseSumIsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/MinAreaRect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/PermutationSequence.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/Permutations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/graph/CourseSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -105,7 +103,7 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinAreaRect">
+  <component name="RunManager" selected="Application.PermutationSequence">
     <configuration name="Intro" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="divideAndConquer.Intro" />
       <module name="fight" />
@@ -145,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.SudokuSolver" />
+    <configuration name="PermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.PermutationSequence" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.ValidSudoku" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.Permutations" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
@@ -186,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationSequence" />
+        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.MinAreaRect" />
         <item itemvalue="Application.WhoseSumIsK" />
         <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.ValidSudoku" />
-        <item itemvalue="Application.SudokuSolver" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +358,8 @@
       <workItem from="1660580856313" duration="33000" />
       <workItem from="1660580905645" duration="1743000" />
       <workItem from="1662135133033" duration="1135000" />
-      <workItem from="1662298733227" duration="11672000" />
+      <workItem from="1662298733227" duration="12255000" />
+      <workItem from="1662387998360" duration="5249000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -383,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617867044702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="algo">
+      <created>1662332059293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662332059293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +398,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,6 +703,21 @@
           <url>file://$PROJECT_DIR$/src/leetCode/MinAreaRect.java</url>
           <line>50</line>
           <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/Permutations.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="569" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/PermutationSequence.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/PermutationSequence.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="574" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
