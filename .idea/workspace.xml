@@ -8,9 +8,7 @@
       <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/CombiOfPhoneNum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/graph/CourseSchedule2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/tree/BinaryTreeNodetoAnother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/tree/CuttingRibbon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/capitalOne/Quest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/capitalOne/Quest3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/capitalOne/Quest4.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,13 +104,13 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CuttingRibbon">
-    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.graph.CourseSchedule" />
+  <component name="RunManager" selected="Application.CombiOfPhoneNum">
+    <configuration name="CombiOfPhoneNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.CombiOfPhoneNum" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.graph.*" />
+          <option name="PATTERN" value="leetCode.backTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombiOfPhoneNum" />
         <item itemvalue="Application.CuttingRibbon" />
         <item itemvalue="Application.Quest3" />
         <item itemvalue="Application.Quest2" />
         <item itemvalue="Application.Quest1" />
-        <item itemvalue="Application.CourseSchedule" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +364,7 @@
       <workItem from="1662686382501" duration="8089000" />
       <workItem from="1662735468507" duration="6320000" />
       <workItem from="1662838717526" duration="7229000" />
-      <workItem from="1663333957807" duration="5540000" />
+      <workItem from="1663333957807" duration="10030000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -417,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662776680564</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="binary search">
+      <created>1663340724059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663340724060</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +435,8 @@
     <MESSAGE value="Permutation practices" />
     <MESSAGE value="topological sort" />
     <MESSAGE value="capitalOne ㅜㅜ" />
-    <option name="LAST_COMMIT_MESSAGE" value="capitalOne ㅜㅜ" />
+    <MESSAGE value="binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -780,6 +786,16 @@
           <line>20</line>
           <option name="timeStamp" value="596" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/CombiOfPhoneNum.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/backTracking/CombiOfPhoneNum.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="254" />
@@ -837,9 +853,6 @@
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="needs.length" language="JAVA" />
-      </configuration>
-      <configuration name="Application">
-        <watch expression="answerList.get(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
