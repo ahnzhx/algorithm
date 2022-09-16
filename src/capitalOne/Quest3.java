@@ -1,8 +1,7 @@
 package capitalOne;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
+import java.util.*;
 
 public class Quest3 {
     public static int[][] solution(int[][] a) {
@@ -16,15 +15,34 @@ public class Quest3 {
             meanList.add(mean);
         }
 
-        int[][] answer = new int[a.length][a[0].length];
-        List<Integer> answerList = new ArrayList<>();
+        Map<Double, List<Integer>> answers = new HashMap<>();
         for(int i =0 ; i < meanList.size(); i++){
-            if(!answerList.get(i).equals(meanList.get(i))  ){
-                answerList.add(i);
+            if(answers.get(meanList.get(i)) != null){
+                answers.get(meanList.get(i)).add(i);
+            }else{
+                List<Integer> temps = new ArrayList<>();
+                temps.add(i);
+                answers.put(meanList.get(i), temps);
+            }
 
+
+        }
+        int maxLength = Integer.MIN_VALUE;
+        for(List list : answers.values()){
+            if(maxLength < list.size()){
+                maxLength = list.size();
             }
         }
-        return answer;
+        int[][] ret = new int[answers.size()][maxLength];
+
+        for(int i =0 ; i < meanList.size(); i++){
+            for(int j =0; j < answers.get(meanList.get(i)).size(); j++){
+                ret[i][j] = answers.get(meanList.get(i)).get(j);
+            }
+
+        }
+
+        return new int[2][0];
     }
 
     public static void main(String[] args) {

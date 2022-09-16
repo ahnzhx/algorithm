@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/capitalOne/Quest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capitalOne/Quest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capitalOne/Quest3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/CombiOfPhoneNum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/graph/CourseSchedule2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/tree/BinaryTreeNodetoAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCode/tree/CuttingRibbon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/capitalOne/Quest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/capitalOne/Quest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/capitalOne/Quest4.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Quest2">
+  <component name="RunManager" selected="Application.CuttingRibbon">
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.graph.CourseSchedule" />
       <module name="fight" />
@@ -120,38 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CuttingRibbon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.tree.CuttingRibbon" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Intro" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="divideAndConquer.Intro" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="divideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.PermutationSequence" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.backTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.Permutations" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.backTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,13 +172,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Quest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="capitalOne.Quest3" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="capitalOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CuttingRibbon" />
+        <item itemvalue="Application.Quest3" />
         <item itemvalue="Application.Quest2" />
         <item itemvalue="Application.Quest1" />
         <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application.PermutationSequence" />
-        <item itemvalue="Application.Permutations" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +364,9 @@
       <workItem from="1662298733227" duration="12255000" />
       <workItem from="1662387998360" duration="6004000" />
       <workItem from="1662686382501" duration="8089000" />
-      <workItem from="1662735468507" duration="6162000" />
+      <workItem from="1662735468507" duration="6320000" />
+      <workItem from="1662838717526" duration="7229000" />
+      <workItem from="1663333957807" duration="5540000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -408,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662737349432</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="capitalOne ㅜㅜ">
+      <created>1662776680564</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662776680564</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +429,8 @@
     <MESSAGE value="algo" />
     <MESSAGE value="Permutation practices" />
     <MESSAGE value="topological sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="topological sort" />
+    <MESSAGE value="capitalOne ㅜㅜ" />
+    <option name="LAST_COMMIT_MESSAGE" value="capitalOne ㅜㅜ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,6 +765,21 @@
           <line>21</line>
           <option name="timeStamp" value="583" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/capitalOne/Quest3.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/tree/CuttingRibbon.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/tree/CuttingRibbon.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="254" />
@@ -806,11 +831,15 @@
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="programmersPaidClass.week2.Quest67693$Truck" memberName="distance" />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="needs.length" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="answerList.get(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
