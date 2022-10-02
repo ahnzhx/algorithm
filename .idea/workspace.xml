@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/leetCode/backTracking/CombiOfPhoneNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignments/second/Quest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignments/second/Quest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignments/second/Quest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/capitalOne/Quest2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/capitalOne/Quest3_2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/graph/CourseSchedule2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/tree/BinaryTreeNodetoAnother.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fight/leetCode/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/leetCode/CombinationSum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/capitalOne/Quest4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/CombinationSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,26 +110,13 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombiOfPhoneNum">
-    <configuration name="CombiOfPhoneNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.backTracking.CombiOfPhoneNum" />
+  <component name="RunManager" selected="Application.Quest5">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.CombinationSum" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.backTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuttingRibbon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.tree.CuttingRibbon" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.tree.*" />
+          <option name="PATTERN" value="leetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="capitalOne.Quest1" />
+    <configuration name="Quest3_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="capitalOne.Quest3_2" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
@@ -157,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="capitalOne.Quest2" />
+    <configuration name="Quest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.second.Quest4" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="capitalOne.*" />
+          <option name="PATTERN" value="assignments.second.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +163,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="capitalOne.Quest3" />
+    <configuration name="Quest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.second.Quest5" />
       <module name="fight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="capitalOne.*" />
+          <option name="PATTERN" value="assignments.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.second.Quest6" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.second.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CombiOfPhoneNum" />
-        <item itemvalue="Application.CuttingRibbon" />
-        <item itemvalue="Application.Quest3" />
-        <item itemvalue="Application.Quest2" />
-        <item itemvalue="Application.Quest1" />
+        <item itemvalue="Application.Quest5" />
+        <item itemvalue="Application.Quest4" />
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.Quest6" />
+        <item itemvalue="Application.Quest3_2" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +370,12 @@
       <workItem from="1662686382501" duration="8089000" />
       <workItem from="1662735468507" duration="6320000" />
       <workItem from="1662838717526" duration="7229000" />
-      <workItem from="1663333957807" duration="10030000" />
+      <workItem from="1663333957807" duration="10800000" />
+      <workItem from="1663518086719" duration="1033000" />
+      <workItem from="1663821405767" duration="10000" />
+      <workItem from="1663967670133" duration="4635000" />
+      <workItem from="1664469626851" duration="20420000" />
+      <workItem from="1664646310095" duration="8191000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -422,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663340724060</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="전화번호 조작하기 풀음">
+      <created>1663345850603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663345850603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +454,8 @@
     <MESSAGE value="topological sort" />
     <MESSAGE value="capitalOne ㅜㅜ" />
     <MESSAGE value="binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search" />
+    <MESSAGE value="전화번호 조작하기 풀음" />
+    <option name="LAST_COMMIT_MESSAGE" value="전화번호 조작하기 풀음" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,6 +814,31 @@
           <url>file://$PROJECT_DIR$/src/leetCode/backTracking/CombiOfPhoneNum.java</url>
           <line>37</line>
           <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/capitalOne/Quest2_2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignments/second/Quest6.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCode/CombinationSum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignments/second/Quest4.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignments/second/Quest5.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="619" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
