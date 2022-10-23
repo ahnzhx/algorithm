@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7952dffb-3eb6-4128-bf54-2b50bad52e68" name="Default Changelist" comment="test2">
-      <change afterPath="$PROJECT_DIR$/src/assignments/second/Quest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/second/Quest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignments/second/Quest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capitalOne/Quest2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/capitalOne/Quest3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoTest/Tiktok/tiktok4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoTest/Tiktok/tiktok5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/graph/CourseSchedule2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetCode/tree/BinaryTreeNodetoAnother.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fight/leetCode/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fight/leetCode/CombinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/capitalOne/Quest4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments/second/Quest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments/second/Quest4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetCode/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/CombinationSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +107,7 @@
       <recent name="testAlgi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Quest5">
+  <component name="RunManager" selected="Application.tiktok5">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.CombinationSum" />
       <module name="fight" />
@@ -130,19 +127,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="divideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Quest3_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="capitalOne.Quest3_2" />
-      <module name="fight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="capitalOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,13 +173,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tiktok5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoTest.Tiktok.tiktok5" />
+      <module name="fight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoTest.Tiktok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quest5" />
+        <item itemvalue="Application.tiktok5" />
         <item itemvalue="Application.Quest4" />
+        <item itemvalue="Application.Quest5" />
         <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.Quest6" />
-        <item itemvalue="Application.Quest3_2" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +372,13 @@
       <workItem from="1663821405767" duration="10000" />
       <workItem from="1663967670133" duration="4635000" />
       <workItem from="1664469626851" duration="20420000" />
-      <workItem from="1664646310095" duration="8191000" />
+      <workItem from="1664646310095" duration="8237000" />
+      <workItem from="1664724558750" duration="1793000" />
+      <workItem from="1665094392942" duration="3461000" />
+      <workItem from="1665526205419" duration="545000" />
+      <workItem from="1666452778762" duration="3910000" />
+      <workItem from="1666458665304" duration="8065000" />
+      <workItem from="1666560626718" duration="2587000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1617204130944</created>
@@ -440,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663345850603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updating">
+      <created>1664724379121</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664724379121</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +465,8 @@
     <MESSAGE value="capitalOne ㅜㅜ" />
     <MESSAGE value="binary search" />
     <MESSAGE value="전화번호 조작하기 풀음" />
-    <option name="LAST_COMMIT_MESSAGE" value="전화번호 조작하기 풀음" />
+    <MESSAGE value="updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -831,14 +842,19 @@
           <option name="timeStamp" value="610" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/assignments/second/Quest4.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="618" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/assignments/second/Quest5.java</url>
           <line>5</line>
           <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignments/second/Quest4.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algoTest/Tiktok/tiktok5.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="624" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
@@ -892,11 +908,15 @@
       <pinned-members>
         <PinnedItemInfo parentTag="programmersPaidClass.week2.Quest67693$Truck" memberName="distance" />
         <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+        <PinnedItemInfo parentTag="java.lang.IndexOutOfBoundsException" memberName="suppressedExceptions" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="needs.length" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="subList" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
