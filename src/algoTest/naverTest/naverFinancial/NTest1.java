@@ -1,7 +1,5 @@
 package algoTest.naverTest.naverFinancial;
 
-import org.junit.runners.Parameterized;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

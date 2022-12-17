@@ -3,7 +3,7 @@ package leetCode;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Comparator {
+public class Comparator<T> {
     public static void main(String[] args) {
         ArrayList<SoccerPlayer> playerList = new ArrayList<>();
         SoccerPlayer player1 = new SoccerPlayer("메시", "공격수",23);
