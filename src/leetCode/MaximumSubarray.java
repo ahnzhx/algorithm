@@ -2,12 +2,17 @@ package leetCode;
 
 public class MaximumSubarray {
     public static int maxSubArray(int[] nums) {
-        if(nums.length == 1) return nums[0];
-        int max = Integer.MIN_VALUE;
+        int currentSubarray = nums[0];
+        int maxSubarray = nums[0];
 
-        
+        for(int i =1; i < nums.length ; i++){
+            int num = nums[i];
 
-        return max;
+            currentSubarray = Math.max(num, currentSubarray+num);
+            maxSubarray = Math.max(maxSubarray,currentSubarray);
+        }
+
+        return maxSubarray;
     }
 
     public static void main(String[] args) {
