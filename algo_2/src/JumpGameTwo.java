@@ -1,26 +1,26 @@
-public class JumpGameTwo {
-    int result = Integer.MAX_VALUE;
-    public int jump(int[] nums) {
-        if(nums.length == 1){
-            return 0;
-        }
-        for(int i = nums[0]; i > 0; i--){
-            helper( i, nums, nums[0], 1);
-        }
+import java.util.Arrays;
 
-        return result;
-    }
-    void helper(int index, int[] nums, int jump, int count){
-        if (index == nums.length-1){
-            result = Math.min(count, result);
-        } else if(index < nums.length-1){
-            for(int j = nums[index]; j > 0; j--){
-                if(jump < nums.length){
-                    helper(index+j, nums, nums[jump], count+1);
+public class JumpGameTwo {
+    public int jump(int[] nums) {
+        int[] dp = new int[nums.length];
+        int startingPoint ;
+        for(int i =0; i < nums.length-1; i++){
+            if(nums[i]+i > nums.length-1){
+                startingPoint = nums.length-1-i;
+            }else{
+                startingPoint = nums[i];
+            }
+            for(int j=startingPoint ; j>0; j--){
+                if(dp[i+j] > 0){
+                    dp[i+j] = Math.min(dp[i]+1, dp[i+j]);
+                }else{
+                    dp[i+j] = dp[i]+1;
                 }
 
             }
-
         }
+
+        return dp[nums.length-1];
     }
+
 }
