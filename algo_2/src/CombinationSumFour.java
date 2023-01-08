@@ -1,25 +1,33 @@
+import java.util.Arrays;
+
 public class CombinationSumFour {
-    int result ;
     public int combinationSum4(int[] nums, int target){
+        int[] dp = new int[target+1];
+        Arrays.sort(nums);
 
-        int sum =0;
-        for(int i =0; i < nums.length; i++){
-            helper(sum + nums[i], nums, target);
+        for(int k =0 ; k <nums.length; k++){
+            if(nums[k] <= target){
+                dp[nums[k]] ++;
+            }else{
+                break;
+            }
         }
-        System.out.println(result);
-        return result;
-    }
+        for(int j =nums[0]; j <= target; j++){
+            for(int i =0; i < nums.length; i++){
+                if(j >= nums[i]){
+                    int finalI = nums[i];
+                    int finalJ = j;
+                    if(Arrays.stream(nums).anyMatch(val -> val == finalJ - finalI) || dp[finalJ - finalI] > 0){
+                        dp[finalJ] += dp[finalJ - finalI];
+                    }
 
-    public void helper(int sum, int[] nums, int target){
-        if(sum > target){
-            return;
+                }else{
+                    break;
+                }
+
+            }
         }
-        if(sum == target){
-            result++;
-            return;
-        }
-        for(int j =0; j < nums.length; j++){
-            helper(sum + nums[j], nums, target);
-        }
+
+        return dp[target];
     }
 }
