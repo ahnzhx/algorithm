@@ -15,21 +15,32 @@ public class Spgoe {
             for(int j =0; j < grid[0].length; j++) {
                 if (i == 0 && j == 0) {
                     continue;
-                }
-                if (grid[i][j] == 0) {
-                    dp[i][j] = getMinValue(dp, i, j) + 1;
-                    kVisited[i][j] = getMinValue(kVisited, i, j);
-                } else {
-                    if (kVisited[i][j] < k) {
-                        dp[i][j] = getMinValue(dp, i, j) + 1;
-                        kVisited[i][j] = getMinValue(kVisited, i, j) + 1;
+                } else if ((i == 0 && j != 0) || (i != 0 && j == 0)) {
+                    if (grid[i][j] == 0) {
+                        dp[i][j] = getKValue(dp, i, j) + 1;
+                        kVisited[i][j] = getKValue(kVisited, i, j);
                     } else {
-                        return -1;
+                        dp[i][j] = getKValue(dp, i, j) + 1;
+                        kVisited[i][j] = getKValue(kVisited, i, j) + 1;
+                    }
+                } else {
+
+                    if (grid[i][j] == 0) {
+                        dp[i][j] = getMinValue(dp, i, j) + 1;
+                        kVisited[i][j] = getKValue(kVisited, i, j);
+                    } else {
+                        dp[i][j] = getMinValue(dp, i, j) + 1;
+                        kVisited[i][j] = getKValue(kVisited, i, j) + 1;
                     }
                 }
             }
         }
-        return dp[grid.length-1][grid[0].length-1];
+        if(kVisited[grid.length-1][grid[0].length-1] <=k){
+            return dp[grid.length-1][grid[0].length-1];
+        }else{
+            return -1;
+        }
+
     }
 
     private int getMinValue(int[][] arr, int i, int j){
@@ -56,5 +67,13 @@ public class Spgoe {
         }
         return Math.min(arr[i][j-1], Math.min(arr[i-1][j], Math.min(arr[i][j+1], arr[i+1][j])));
     }
-
+    private int getKValue(int[][] arr, int i, int j){
+        if(i ==0){
+            return arr[i][j-1];
+        }else if (j ==0){
+            return arr[i-1][j];
+        }else {
+            return Math.min(arr[i-1][j], arr[i][j-1]);
+        }
+    }
 }
