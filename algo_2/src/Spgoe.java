@@ -1,79 +1,105 @@
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.PriorityQueue;
 
 public class Spgoe {
     // Shortest Path in a Grid with Obstacles Elimination
+    class StepState implements Comparable{
+        /*
+        * state info for each step;
+        * */
+        public int estimation, steps, row, col, k;
+        private int[] target;
+
+        public StepState(int steps, int row, int col, int k, int[] target){
+            this.steps = steps;
+            this.row = row;
+            this.col = col;
+            this.k = k;
+            this.target = target;
+            int manhattanDistance = target[0] - row + target[1]-col;
+
+            // h(n) = manhattan distance, g(n) =0;
+            // estimation = h(n) + g(n)
+            this.estimation = manhattanDistance + steps;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if(!(o instanceof StepState)){
+                return false;
+            }
+            StepState newState = (StepState) o;
+            return (this.row == newState.row) && (this.col == newState.col) && (this.k == newState.k);
+        }
+
+        @Override
+        public int hashCode() {
+            return (this.row+1) * (this.col+1) *this.k;
+        }
+
+        @Override
+        public int compareTo(Object o) {
+            // order the elements solely based on the 'estimation' value
+            StepState other = (StepState) o;
+            return this.estimation - other.estimation;
+        }
+
+        @Override
+        public String toString() {
+            return String.format("(%d %d %d %d %d)",
+                    this.estimation, this.steps, this.row, this.col, this.k);
+        }
+    }
     public int shortestPath(int[][] grid, int k) {
-        int[][] dp = new int[grid.length][grid[0].length];
-        int[][] kVisited = new int[grid.length][grid[0].length];
+        int rows = grid.length, cols = grid[0].length;
+        int[] target = {rows-1, cols-1};
 
-        for(int[] arr : dp){
-            Arrays.fill(arr, Integer.MAX_VALUE);
-        }
+        PriorityQueue<StepState> queue = new PriorityQueue<>();
+        HashSet<StepState> seen = new HashSet<>();
 
-        dp[0][0] = 0;
-        for(int i =0; i < grid.length; i++){
-            for(int j =0; j < grid[0].length; j++) {
-                if (i == 0 && j == 0) {
+        // (steps, row, col, remaining quota to eliminate obstacles)
+        StepState start = new StepState(0,0,0, k, target);
+        queue.offer(start);
+        seen.add(start);
+
+        while(!queue.isEmpty()){
+            StepState curr = queue.poll();
+
+            // we can reach the target in the shortest path (manhattan distance),
+            // even if the remaining steps are all obstacles
+            int remainMinDistance = curr.estimation - curr.steps;
+            if(remainMinDistance <= curr.k){
+                return curr.estimation;
+            }
+
+            int[] nextSteps = {curr.row, curr.col+1, curr.row +1, curr.col,
+                    curr.row, curr.col-1, curr.row-1, curr.col};
+
+            // explore the four directions in the next step
+            for(int i =0; i<nextSteps.length; i+=2){
+                int nextRow = nextSteps[i];
+                int nextCol = nextSteps[i+1];
+
+                // out of the boundary of grid
+                if(0> nextRow || nextRow == rows || 0 > nextCol || nextCol == cols){
                     continue;
-                } else if ((i == 0 && j != 0) || (i != 0 && j == 0)) {
-                    if (grid[i][j] == 0) {
-                        dp[i][j] = getKValue(dp, i, j) + 1;
-                        kVisited[i][j] = getKValue(kVisited, i, j);
-                    } else {
-                        dp[i][j] = getKValue(dp, i, j) + 1;
-                        kVisited[i][j] = getKValue(kVisited, i, j) + 1;
-                    }
-                } else {
-
-                    if (grid[i][j] == 0) {
-                        dp[i][j] = getMinValue(dp, i, j) + 1;
-                        kVisited[i][j] = getKValue(kVisited, i, j);
-                    } else {
-                        dp[i][j] = getMinValue(dp, i, j) + 1;
-                        kVisited[i][j] = getKValue(kVisited, i, j) + 1;
-                    }
                 }
+
+                int nextElimination = curr.k - grid[nextRow][nextCol];
+                StepState newState = new StepState(
+                        curr.steps+1, nextRow, nextCol, nextElimination, target);
+
+                // add the next move in the queue if it qualifies;
+                if(nextElimination >=0 && !seen.contains(newState)){
+                    seen.add(newState);
+                    queue.offer(newState);
+                }
+
             }
         }
-        if(kVisited[grid.length-1][grid[0].length-1] <=k){
-            return dp[grid.length-1][grid[0].length-1];
-        }else{
-            return -1;
-        }
-
+    return -1;
     }
 
-    private int getMinValue(int[][] arr, int i, int j){
-        if(i ==0){
-            if(j+1 < arr[0].length-1){
-                return Math.min(arr[i][j-1], Math.min(arr[i][j+1], arr[i+1][j]));
-            }else{
-                return Math.min(arr[i][j-1], arr[i+1][j]);
-            }
 
-        }else if(i == arr.length-1){
-            if(j+1 < arr[0].length && j > 0){
-                return Math.min(arr[i][j-1], Math.min(arr[i][j+1], arr[i-1][j]));
-            }else if (j == arr[0].length-1){
-                return Math.min(arr[i][j-1], arr[i-1][j]);
-            }else if(j ==0){
-                return Math.min(arr[i-1][j], arr[i][j+1]);
-            }
-
-        }else if (j ==0 && (i > 0 || i+1 < arr.length-1)){
-            return Math.min(arr[i-1][j], Math.min(arr[i][j+1], arr[i+1][j]));
-        }else if(j == arr[0].length-1 && (i > 0 || i+1 < arr.length-1)){
-            return Math.min(arr[i-1][j], Math.min(arr[i][j-1], arr[i+1][j]));
-        }
-        return Math.min(arr[i][j-1], Math.min(arr[i-1][j], Math.min(arr[i][j+1], arr[i+1][j])));
-    }
-    private int getKValue(int[][] arr, int i, int j){
-        if(i ==0){
-            return arr[i][j-1];
-        }else if (j ==0){
-            return arr[i-1][j];
-        }else {
-            return Math.min(arr[i-1][j], arr[i][j-1]);
-        }
-    }
 }
